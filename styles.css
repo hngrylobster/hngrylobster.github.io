@@ -602,6 +602,18 @@ code,
   border-radius: 50% !important;
 }
 
+/*
+  Queries
+*/
+
+.rm-query-title {
+      font-size: 0px !important;
+ }
+.rm-query-title:after {
+         font-size: 10px;
+         content: "Query";
+}
+
 @media only screen and (max-width: 600px) {
   h1.rm-title-display {
   	font-size: 30px;
