@@ -607,11 +607,11 @@ code,
 */
 
 .rm-query-title {
-      font-size: 0px !important;
+  font-size: 0px !important;
  }
 .rm-query-title:after {
-         font-size: 10px;
-         content: "Query";
+  font-size: 15px;
+  content: "Query";
 }
 
 @media only screen and (max-width: 600px) {
