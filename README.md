@@ -1,3 +1,3 @@
-# roam-styles
+# Paul Legan
 
-Custom styles for Roam Research.
+Random Github scripts here, etc.
