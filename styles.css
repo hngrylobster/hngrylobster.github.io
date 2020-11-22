@@ -535,8 +535,17 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
   font-size: 14px;
 }
 
+span.rm-page-ref-tag[data-tag="Resource Issues"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
+}
+
+span.rm-page-ref-tag[data-tag="Resource Issues"] {
+  padding: 2px 5px;
+  background-color: #ED5B5C;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
 }
 
 /* kanban board
