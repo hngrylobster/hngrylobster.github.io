@@ -58,6 +58,34 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: 'Whitney HTF';
+  src: font-url('whitney_light-webfont.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney HTF';
+  src: font-url('whitney_book-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney HTF';
+  src: font-url('whitney_semibold-webfont.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney HTF';
+  src: font-url('whitney_black-webfont.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
 html,
 body,
 #app,
