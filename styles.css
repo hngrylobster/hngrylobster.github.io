@@ -608,10 +608,19 @@ code,
 
 .rm-query-title {
   font-size: 0px !important;
- }
+}
+
 .rm-query-title:after {
   font-size: 15px;
   content: "Query";
+}
+
+.rm-query {
+  padding-bottom: 0;
+}
+
+.rm-reference-main {
+  padding-bottom: var(--s1);
 }
 
 @media only screen and (max-width: 600px) {
