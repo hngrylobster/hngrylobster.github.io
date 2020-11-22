@@ -65,31 +65,38 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Whitney HTF';
   src: url('whitney_light-webfont.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-/* 
-@font-face {
-  font-family: 'Whitney HTF';
-  src: url('whitney_book-webfont.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 } */
 
 @font-face {
   font-family: 'Whitney HTF';
-  src: url('whitney_semibold-webfont.woff2') format('woff2');
+  src: url('whitney_book-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney HTF';
+  src: url('whitney_book-webfont.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Whitney HTF';
+  src: url('whitney_semibold-webfont.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney HTF';
   src: url('whitney_black-webfont.woff2') format('woff2');
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
 }
 
