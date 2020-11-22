@@ -31,8 +31,8 @@
   --color-hour-link: #778292;
   --color-hour-link-dark: #4a5a6f;
   
-  --color-unfinished-text: #ADEFD1FF;
-  --color-unfinished-background: #00203FFF;
+  --color-unfinished-text: #fff;
+  --color-unfinished-background: #5A6C7F;
   
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
