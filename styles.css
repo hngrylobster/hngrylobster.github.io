@@ -538,6 +538,7 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
   font-size: 14px;
 }
 
+span.rm-page-ref-tag[data-tag="Food"]:hover,
 span.rm-page-ref-tag[data-tag="Resource Issues"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
@@ -547,6 +548,14 @@ span.rm-page-ref-tag[data-tag="Resource Issues"] {
   padding: 2px 5px;
   background-color: #ED5B5C;
   color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+span.rm-page-ref-tag[data-tag="Food"] {
+  padding: 2px 5px;
+  background-color: #2460A7FF;
+  color: #B3C7D6FF;
   border-radius: 3px;
   font-size: 14px;
 }
