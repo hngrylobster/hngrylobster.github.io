@@ -667,6 +667,10 @@ code,
   max-width: 60ch;
 }
 
+.rm-block-input {
+  background: #fff;
+}
+
 /*
   Queries
 */
