@@ -575,13 +575,13 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 
 /* tag styles. ex: #Article
 --------------------------- */
-span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
+span.rm-page-ref-tag[data-tag="Resource Issues"],
+span.rm-page-ref-tag[data-tag="Unfinished Thoughts"],
+span.rm-page-ref-tag[data-tag="Food"] {
   padding: 3px 6px;
   white-space: nowrap;
-  background-color: var(--color-unfinished-background);
-  color: var(--color-unfinished-text);
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 span.rm-page-ref-tag[data-tag="Food"]:hover,
@@ -590,21 +590,19 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
 }
 
+span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
+  background-color: var(--color-unfinished-background);
+  color: var(--color-unfinished-text);
+}
+
 span.rm-page-ref-tag[data-tag="Resource Issues"] {
-  padding: 3px 6px;
-  white-space: nowrap;
   background-color: #ED5B5C;
   color: #fff;
-  border-radius: 3px;
-  font-size: 14px;
 }
 
 span.rm-page-ref-tag[data-tag="Food"] {
-  padding: 3px 6px;
   background-color: #1e3d59;
   color: #f5f0e1;
-  border-radius: 3px;
-  font-size: 14px;
 }
 
 /* kanban board
