@@ -576,7 +576,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 /* tag styles. ex: #Article
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
-  padding: 2px 5px;
+  padding: 3px 6px;
   white-space: nowrap;
   background-color: var(--color-unfinished-background);
   color: var(--color-unfinished-text);
@@ -591,7 +591,7 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
 }
 
 span.rm-page-ref-tag[data-tag="Resource Issues"] {
-  padding: 2px 5px;
+  padding: 3px 6px;
   white-space: nowrap;
   background-color: #ED5B5C;
   color: #fff;
@@ -600,7 +600,7 @@ span.rm-page-ref-tag[data-tag="Resource Issues"] {
 }
 
 span.rm-page-ref-tag[data-tag="Food"] {
-  padding: 2px 5px;
+  padding: 3px 6px;
   background-color: #1e3d59;
   color: #f5f0e1;
   border-radius: 3px;
