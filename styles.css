@@ -33,6 +33,9 @@
   
   --color-unfinished-text: #fff;
   --color-unfinished-background: #5A6C7F;
+
+  --color-gunmetal: #2E3440;
+  --color-putty: #EBCB8B;
   
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
@@ -574,6 +577,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
   padding: 2px 5px;
+  word-break: keep-all;
   background-color: var(--color-unfinished-background);
   color: var(--color-unfinished-text);
   border-radius: 3px;
@@ -588,6 +592,7 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
 
 span.rm-page-ref-tag[data-tag="Resource Issues"] {
   padding: 2px 5px;
+  word-break: keep-all;
   background-color: #ED5B5C;
   color: #fff;
   border-radius: 3px;
