@@ -577,7 +577,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
   padding: 2px 5px;
-  word-break: keep-all;
+  white-space: nowrap;
   background-color: var(--color-unfinished-background);
   color: var(--color-unfinished-text);
   border-radius: 3px;
@@ -592,7 +592,7 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
 
 span.rm-page-ref-tag[data-tag="Resource Issues"] {
   padding: 2px 5px;
-  word-break: keep-all;
+  white-space: nowrap;
   background-color: #ED5B5C;
   color: #fff;
   border-radius: 3px;
