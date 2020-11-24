@@ -602,7 +602,7 @@ span.rm-page-ref-tag[data-tag="Resource Issues"] {
 
 span.rm-page-ref-tag[data-tag="Food"] {
   background-color: #1e3d59;
-  color: #f5f0e1;
+  color: #fff;
 }
 
 /* kanban board
@@ -667,6 +667,8 @@ code,
 
 .rm-block-input {
   background: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*
