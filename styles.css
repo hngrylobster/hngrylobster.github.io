@@ -564,7 +564,8 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 
 /* tag styles. ex: #Article
 --------------------------- */
-span.rm-page-ref-tag[data-tag="Resource Issues"],
+span.rm-page-ref-tag[data-tag="Resourcing"],
+span.rm-page-ref-tag[data-tag="Issue"],
 span.rm-page-ref-tag[data-tag="Inspiration"],
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"],
 span.rm-page-ref-tag[data-tag="Code"],
@@ -581,7 +582,8 @@ span.rm-page-ref-tag[data-tag="Food"]:hover,
 span.rm-page-ref-tag[data-tag="Code"]:hover,
 span.rm-page-ref-tag[data-tag="Inspiration"]:hover,
 span.rm-page-ref-tag[data-tag="Snippets"]:hover,
-span.rm-page-ref-tag[data-tag="Resource Issues"]:hover,
+span.rm-page-ref-tag[data-tag="Resourcing"]:hover,
+span.rm-page-ref-tag[data-tag="Issue"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
 }
@@ -591,9 +593,13 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
   color: var(--color-gunmetal);
 }
 
-span.rm-page-ref-tag[data-tag="Resource Issues"] {
+span.rm-page-ref-tag[data-tag="Issue"] {
   background-color: #ED5B5C;
   color: #fff;
+}
+span.rm-page-ref-tag[data-tag="Resourcing"] {
+  background-color: #304D6D;
+  color: #A7CCED;
 }
 
 span.rm-page-ref-tag[data-tag="Food"] {
