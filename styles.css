@@ -587,8 +587,8 @@ span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
 }
 
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
-  background-color: var(--color-unfinished-background);
-  color: var(--color-unfinished-text);
+  background-color: var(--color-putty);
+  color: var(--color-gunmetal);
 }
 
 span.rm-page-ref-tag[data-tag="Resource Issues"] {
@@ -613,8 +613,8 @@ span.rm-page-ref-tag[data-tag="Evergreen"] {
 
 span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Code"] {
-  background-color: #D2E9E3;
-  color: #F1BFAB;
+  background-color: #A8CFE1;
+  color: #0B0C10;
 }
 
 /* kanban board
