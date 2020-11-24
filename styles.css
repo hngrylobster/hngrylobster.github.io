@@ -400,7 +400,6 @@ span[data-link-title="Ideas"]::before,
 span[data-link-title="Happy Hour"]::before,
 span[data-link-title="Money"]::before,
 span[data-link-title="Words"]::before,
-span[data-link-title="Code"]::before,
 span[data-link-title="Health"]::before {
   font-family: "phosphor" !important;
   font-style: normal !important;
@@ -437,10 +436,6 @@ span[data-link-title="Words"]::before {
   content: "\f189 ";
 }
 
-span[data-link-title="Code"]::before {
-  content: "\ecf2 ";
-}
-
 span[data-link-title="Morning Routine"]::before {
   content: "\f34b ";
 }
@@ -453,7 +448,6 @@ span[data-link-title="Health"],
 span[data-link-title="Money"],
 span[data-link-title="Words"],
 span[data-link-title="Ideas"],
-span[data-link-title="Code"],
 span[data-link-title="Inspiration"],
 span[data-link-title="Happy Hour"],
 span[data-link-title="Morning Routine"],
@@ -473,7 +467,6 @@ span[data-link-title="Money"],
 span[data-link-title="Happy Hour"],
 span[data-link-title="Inspiration"],
 span[data-link-title="Health"],
-span[data-link-title="Code"],
 span[data-link-title="Ideas"] {
   background-color: var(--color-morning);
   color: var(--color-morning-text);
@@ -504,7 +497,6 @@ span[data-link-title="Money"]:hover,
 span[data-link-title="Health"]:hover,
 span[data-link-title="Ideas"]:hover,
 span[data-link-title="Words"]:hover,
-span[data-link-title="Code"]:hover,
 span[data-link-title="Happy Hour"]:hover,
 span[data-link-title="Inspiration"]:hover,
 span[data-link-title="Morning Routine"]:hover,
@@ -517,7 +509,6 @@ span[data-link-title="Money"] .rm-page-ref-brackets,
 span[data-link-title="Words"] .rm-page-ref-brackets,
 span[data-link-title="Ideas"] .rm-page-ref-brackets,
 span[data-link-title="Inspiration"] .rm-page-ref-brackets,
-span[data-link-title="Code"] .rm-page-ref-brackets,
 span[data-link-title="Happy Hour"] .rm-page-ref-brackets,
 span[data-link-title="Morning Routine"] .rm-page-ref-brackets,
 span[data-link-title="Evening Routine"] .rm-page-ref-brackets {
@@ -528,7 +519,6 @@ span[data-link-title="Ideas"] .rm-page-ref-link-color,
 span[data-link-title="Words"] .rm-page-ref-link-color,
 span[data-link-title="Health"] .rm-page-ref-link-color,
 span[data-link-title="Money"] .rm-page-ref-link-color,
-span[data-link-title="Code"] .rm-page-ref-link-color,
 span[data-link-title="Inspiration"] .rm-page-ref-link-color,
 span[data-link-title="Happy Hour"] .rm-page-ref-link-color,
 span[data-link-title="Morning Routine"] .rm-page-ref-link-color,
@@ -543,7 +533,6 @@ span[data-link-title="Ideas"] .rm-page-ref:hover,
 span[data-link-title="Words"] .rm-page-ref:hover,
 span[data-link-title="Money"] .rm-page-ref:hover,
 span[data-link-title="Health"] .rm-page-ref:hover,
-span[data-link-title="Code"] .rm-page-ref:hover,
 span[data-link-title="Inspiration"] .rm-page-ref:hover,
 span[data-link-title="Happy Hour"] .rm-page-ref:hover,
 span[data-link-title="Morning Routine"] .rm-page-ref:hover,
@@ -577,6 +566,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Resource Issues"],
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"],
+span.rm-page-ref-tag[data-tag="Code"],
 span.rm-page-ref-tag[data-tag="Food"] {
   padding: 3px 6px;
   white-space: nowrap;
@@ -585,6 +575,7 @@ span.rm-page-ref-tag[data-tag="Food"] {
 }
 
 span.rm-page-ref-tag[data-tag="Food"]:hover,
+span.rm-page-ref-tag[data-tag="Code"]:hover,
 span.rm-page-ref-tag[data-tag="Resource Issues"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
@@ -601,7 +592,12 @@ span.rm-page-ref-tag[data-tag="Resource Issues"] {
 }
 
 span.rm-page-ref-tag[data-tag="Food"] {
-  background-color: #1e3d59;
+  background-color: #EE964B;
+  color: #fff;
+}
+
+span.rm-page-ref-tag[data-tag="Code"] {
+  background-color: #AB92BF;
   color: #fff;
 }
 
