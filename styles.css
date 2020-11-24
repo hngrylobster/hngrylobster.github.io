@@ -565,17 +565,22 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 /* tag styles. ex: #Article
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Resource Issues"],
+span.rm-page-ref-tag[data-tag="Inspiration"],
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"],
 span.rm-page-ref-tag[data-tag="Code"],
+span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Food"] {
   padding: 3px 6px;
   white-space: nowrap;
   border-radius: 3px;
   font-size: 15px;
+  /* text-transform: uppercase; */
 }
 
 span.rm-page-ref-tag[data-tag="Food"]:hover,
 span.rm-page-ref-tag[data-tag="Code"]:hover,
+span.rm-page-ref-tag[data-tag="Inspiration"]:hover,
+span.rm-page-ref-tag[data-tag="Snippets"]:hover,
 span.rm-page-ref-tag[data-tag="Resource Issues"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
@@ -596,6 +601,17 @@ span.rm-page-ref-tag[data-tag="Food"] {
   color: #fff;
 }
 
+span.rm-page-ref-tag[data-tag="Inspiration"] {
+  background-color: #001f3f;
+  color: hsla(210, 100%, 75%, 1.0);
+}
+
+span.rm-page-ref-tag[data-tag="Evergreen"] {
+  background-color: #32A852;
+  color: #fff;
+}
+
+span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Code"] {
   background-color: #AB92BF;
   color: #fff;
@@ -665,6 +681,10 @@ code,
   background: #fff;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.roam-highlight {
+  margin-left: 4px;
 }
 
 /*
