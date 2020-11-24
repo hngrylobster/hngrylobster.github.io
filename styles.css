@@ -597,8 +597,8 @@ span.rm-page-ref-tag[data-tag="Resource Issues"] {
 }
 
 span.rm-page-ref-tag[data-tag="Food"] {
-  background-color: #EE964B;
-  color: #fff;
+  background-color: #203B34;
+  color: #FDBD37;
 }
 
 span.rm-page-ref-tag[data-tag="Inspiration"] {
@@ -660,7 +660,7 @@ span.rm-page-ref-tag[data-tag="Code"] {
 
 .checkmark {
   top: -2px;
-  border-radius: 50% !important;
+  /* border-radius: 50% !important; */
 }
 
 .check-container {
