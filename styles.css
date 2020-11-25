@@ -118,10 +118,10 @@ a,
   color: var(--color-medium);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
-  text-decoration-color: var(--color-dark-5);
+  /* text-decoration-color: var(--color-dark-5); */
 }
 
-a > .rm-ref-page-view-title {
+.rm-ref-page-view-title a  {
   text-decoration: none;
 }
 
