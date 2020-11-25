@@ -407,7 +407,6 @@ span[data-link-title="Ideas"]::before,
 span[data-link-title="Happy Hour"]::before,
 span[data-link-title="Money"]::before,
 span[data-link-title="Words"]::before,
-span[data-link-title^="[[Books]]"]::before,
 span[data-link-title="Health"]::before {
   font-family: "phosphor" !important;
   font-style: normal !important;
@@ -420,8 +419,13 @@ span[data-link-title="Health"]::before {
   font-size: 13px;
 }
 
-span[data-link-title^="[[Books]]"]::before {
-  content: "\eed9 ";
+span[data-link-title^="[[Books]]"]::after {
+  content: "\f18a ";
+  font-family: 'phosphor' !important;
+  font-size: 13px;
+  padding-left: 4px;
+  position: relative;
+  display: inline-block;
 }
 
 span[data-link-title="Inspiration"]::before {
