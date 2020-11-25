@@ -419,7 +419,7 @@ span[data-link-title="Health"]::before {
   font-size: 13px;
 }
 
-span[data-link-title^="[[Books]]"]::after {
+span[data-link-title^="[[Books]]"] > .rm-page-ref-link-color::after {
   content: "\f18a ";
   font-family: 'phosphor' !important;
   font-size: 13px;
