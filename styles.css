@@ -773,6 +773,10 @@ code,
   flex: 0 1 100% !important;
 }
 
+.rm-attr-ref {
+  font-weight: 600 !important;
+}
+
 .rm-block-text {
   max-width: 60ch;
 }
