@@ -622,8 +622,8 @@ span.rm-page-ref-tag[data-tag="Food"] {
 }
 
 span.rm-page-ref-tag[data-tag="Inspiration"] {
-  background-color: #D4E8E1;
-  color: #E14B68
+  background-color: #e07a5f;
+  color: rgba(255,255,255,0.8);
 }
 
 span.rm-page-ref-tag[data-tag="Evergreen"] {
@@ -638,7 +638,7 @@ span.rm-page-ref-tag[data-tag="Draft"] {
 
 span.rm-page-ref-tag[data-tag="Revised"] {
   background-color: #8ED081;
-  color: #fff;
+  color: rgba(0,0,0,.8);
 }
 
 span.rm-page-ref-tag[data-tag="Snippets"],
