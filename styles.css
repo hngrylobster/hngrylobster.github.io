@@ -420,12 +420,15 @@ span[data-link-title="Health"]::before {
 }
 
 span[data-link-title^="[[Books]]"] > .rm-page-ref-link-color::after {
-  content: "\f18a ";
-  font-family: 'phosphor' !important;
+  font-family: "phosphor" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: never;
   font-size: 13px;
   padding-left: 2px;
   position: relative;
   display: inline-block;
+  content: "\eb38 ";
 }
 
 span[data-link-title="Inspiration"]::before {
