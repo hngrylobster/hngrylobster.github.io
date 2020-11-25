@@ -422,10 +422,10 @@ span[data-link-title="Health"]::before {
 span[data-link-title^="[[Books]]"] > .rm-page-ref-link-color::after {
   font-family: "phosphor" !important;
   font-style: normal !important;
-  font-weight: normal !important;
+  font-weight: bold !important;
   speak: never;
-  font-size: 13px;
-  padding-left: 2px;
+  font-size: 14px;
+  padding-left: 4px;
   position: relative;
   display: inline-block;
   content: "\eb38 ";
