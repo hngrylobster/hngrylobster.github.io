@@ -535,6 +535,7 @@ span[data-link-title="Evening Routine"] .rm-page-ref-link-color {
   letter-spacing: 0.05rem;
   font-size: 14px;
   padding: 0 2px;
+  text-decoration: none;
 }
 
 span[data-link-title="Ideas"] .rm-page-ref:hover,
