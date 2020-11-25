@@ -118,7 +118,15 @@ a,
   color: var(--color-medium);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
-  /* text-decoration-color: var(--color-dark-5); */
+  text-decoration-thickness: 1px;
+}
+
+.rm-block-text a:hover,
+.rm-page-ref-link-color:hover {
+  color: var(--color-dark);
+  text-decoration-skip-ink: auto;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .rm-ref-page-view-title a  {
@@ -426,6 +434,7 @@ span[data-link-title^="[[Books]]"] > .rm-page-ref-link-color::after {
   speak: never;
   font-size: 14px;
   padding-left: 4px;
+  margin-right: 2px;
   position: relative;
   display: inline-block;
   content: "\eb38 ";
