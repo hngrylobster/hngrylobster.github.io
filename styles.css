@@ -116,6 +116,13 @@ body,
 a,
 .rm-page-ref-link-color {
   color: var(--color-medium);
+  text-decoration-skip-ink: auto;
+  text-decoration: underline;
+  text-decoration-color: var(--color-dark-5);
+}
+
+a > .rm-ref-page-view-title {
+  text-decoration: none;
 }
 
 .roam-block {
@@ -458,6 +465,7 @@ span[data-link-title="Evening Routine"] {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 span[data-link-title="Morning Routine"],
@@ -551,6 +559,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color {
   background: #fff;
   border-radius: 2px;
   border: 1px solid #fff;
+  text-decoration: none;
 }
 
 span[data-link-title$=":45"] .rm-page-ref-link-color:hover,
