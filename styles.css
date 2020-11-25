@@ -575,6 +575,7 @@ span.rm-page-ref-tag[data-tag="Code"],
 span.rm-page-ref-tag[data-tag="Thoughts"],
 span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Evergreen"],
+span.rm-page-ref-tag[data-tag="Concepts"],
 span.rm-page-ref-tag[data-tag="Food"] {
   padding: 3px 6px;
   white-space: nowrap;
@@ -594,6 +595,7 @@ span.rm-page-ref-tag[data-tag="Resourcing"]:hover,
 span.rm-page-ref-tag[data-tag="Issue"]:hover,
 span.rm-page-ref-tag[data-tag="Thoughts"]:hover,
 span.rm-page-ref-tag[data-tag="Evergreen"]:hover,
+span.rm-page-ref-tag[data-tag="Concepts"]:hover,
 span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
 }
@@ -643,11 +645,17 @@ span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Code"] {
   background-color: #A8CFE1;
   color: #0B0C10;
+  font-family: var(--font-monospace);
 }
 
 span.rm-page-ref-tag[data-tag="Quotes"] {
   background-color: #142B3E;
   color: #BFD7EA;
+}
+
+span.rm-page-ref-tag[data-tag="Concepts"] {
+  background-color: #C1666B;
+  color: rgba(255,255,255,0.7);
 }
 
 /* kanban board
