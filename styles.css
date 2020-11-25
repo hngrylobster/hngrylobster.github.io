@@ -647,7 +647,7 @@ span.rm-page-ref-tag[data-tag="Resourcing"] {
   color: #A7CCED;
 }
 
-span.rm-page-ref-tag[data-tag="Food"] {
+/* span.rm-page-ref-tag[data-tag="Food"] {
   background-color: #203B34;
   color: #FDBD37;
 }
@@ -655,6 +655,20 @@ span.rm-page-ref-tag[data-tag="Food"] {
 span.rm-page-ref-tag[data-tag="Inspiration"] {
   background-color: #e07a5f;
   color: rgba(255,255,255,0.8);
+} */
+
+span.rm-page-ref-tag[data-tag="Food"] {
+  --bg-opacity: 1;
+  --text-opacity: 1;
+  background-color: rgba(226,232,240,var(--bg-opacity));
+  color: rgba(45,55,72,var(--text-opacity));
+}
+
+span.rm-page-ref-tag[data-tag="Inspiration"] {
+  --bg-opacity: 1;
+  --text-opacity: 1;
+  background-color: rgba(226,232,240,var(--bg-opacity));
+  color: rgba(45,55,72,var(--text-opacity));
 }
 
 span.rm-page-ref-tag[data-tag="Evergreen"] {
