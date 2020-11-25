@@ -566,6 +566,7 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Resourcing"],
 span.rm-page-ref-tag[data-tag="Issue"],
+span.rm-page-ref-tag[data-tag="Quotes"],
 span.rm-page-ref-tag[data-tag="Draft"],
 span.rm-page-ref-tag[data-tag="Revised"],
 span.rm-page-ref-tag[data-tag="Inspiration"],
@@ -586,6 +587,7 @@ span.rm-page-ref-tag[data-tag="Food"]:hover,
 span.rm-page-ref-tag[data-tag="Draft"]:hover,
 span.rm-page-ref-tag[data-tag="Revised"]:hover,
 span.rm-page-ref-tag[data-tag="Code"]:hover,
+span.rm-page-ref-tag[data-tag="Quotes"]:hover,
 span.rm-page-ref-tag[data-tag="Inspiration"]:hover,
 span.rm-page-ref-tag[data-tag="Snippets"]:hover,
 span.rm-page-ref-tag[data-tag="Resourcing"]:hover,
@@ -641,6 +643,11 @@ span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Code"] {
   background-color: #A8CFE1;
   color: #0B0C10;
+}
+
+span.rm-page-ref-tag[data-tag="Quotes"] {
+  background-color: #142B3E;
+  color: #BFD7EA;
 }
 
 /* kanban board
