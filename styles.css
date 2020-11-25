@@ -423,7 +423,7 @@ span[data-link-title^="[[Books]]"]::after {
   content: "\f18a ";
   font-family: 'phosphor' !important;
   font-size: 13px;
-  padding-left: 4px;
+  padding-left: 2px;
   position: relative;
   display: inline-block;
 }
