@@ -645,6 +645,9 @@ span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Code"] {
   background-color: #A8CFE1;
   color: #0B0C10;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-family: var(--font-monospace);
 }
 
@@ -655,7 +658,7 @@ span.rm-page-ref-tag[data-tag="Quotes"] {
 
 span.rm-page-ref-tag[data-tag="Concepts"] {
   background-color: #C1666B;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.8);
 }
 
 /* kanban board
