@@ -635,6 +635,7 @@ span.rm-page-ref-tag[data-tag="Code"],
 span.rm-page-ref-tag[data-tag="Thoughts"],
 span.rm-page-ref-tag[data-tag="Snippets"],
 span.rm-page-ref-tag[data-tag="Evergreen"],
+span.rm-page-ref-tag[data-tag="Decision"],
 span.rm-page-ref-tag[data-tag="Concepts"],
 span.rm-page-ref-tag[data-tag="Food"] {
   padding: 4px 6px;
@@ -648,6 +649,7 @@ span.rm-page-ref-tag[data-tag="Food"]:hover,
 span.rm-page-ref-tag[data-tag="Draft"]:hover,
 span.rm-page-ref-tag[data-tag="Revised"]:hover,
 span.rm-page-ref-tag[data-tag="Code"]:hover,
+span.rm-page-ref-tag[data-tag="Decision"]:hover,
 span.rm-page-ref-tag[data-tag="Quotes"]:hover,
 span.rm-page-ref-tag[data-tag="Inspiration"]:hover,
 span.rm-page-ref-tag[data-tag="Snippets"]:hover,
@@ -686,14 +688,9 @@ span.rm-page-ref-tag[data-tag="Inspiration"] {
   color: rgba(255,255,255,0.8);
 } */
 
+span.rm-page-ref-tag[data-tag="Inspiration"],
+span.rm-page-ref-tag[data-tag="Decision"],
 span.rm-page-ref-tag[data-tag="Food"] {
-  --bg-opacity: 1;
-  --text-opacity: 1;
-  background-color: rgba(226,232,240,var(--bg-opacity));
-  color: rgba(45,55,72,var(--text-opacity));
-}
-
-span.rm-page-ref-tag[data-tag="Inspiration"] {
   --bg-opacity: 1;
   --text-opacity: 1;
   background-color: rgba(226,232,240,var(--bg-opacity));
