@@ -587,7 +587,7 @@ span[data-link-title="Morning Routine"] .rm-page-ref-link-color,
 span[data-link-title="Evening Routine"] .rm-page-ref-link-color {
   color: var(--color-morning-text);
   letter-spacing: 0.05rem;
-  font-size: 14px;
+  font-size: 12px;
   padding: 0 2px;
   text-decoration: none;
 }
@@ -642,7 +642,7 @@ span.rm-page-ref-tag[data-tag="Evergreen"],
 span.rm-page-ref-tag[data-tag="Decision"],
 span.rm-page-ref-tag[data-tag="Concepts"],
 span.rm-page-ref-tag[data-tag="Food"] {
-  padding: 4px 6px;
+  padding: 3px 6px;
   white-space: nowrap;
   border-radius: 3px;
   font-size: 15px;
