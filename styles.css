@@ -42,11 +42,10 @@
   --font-family-tags: SFMono-Regular, Menlo, Monaco,
                Consolas, "Liberation Mono",
                "Courier New", monospace;
-  --font-family-normal: "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  --font-family-normal: "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
   
-  --font-size: 17px;
+  --font-size: 15px;
   --font-size-code: 14px;
 }
 
@@ -76,6 +75,30 @@
 } */
 
 @font-face {
+  font-family:"AtlasGrotesk";
+  src:url("fonts/atlas-grotesk/AtlasGrotesk-Thin.woff2") format("woff2");
+  font-style:normal;font-weight:200;
+}
+
+@font-face {
+  font-family:"AtlasGrotesk";
+  src:url("fonts/atlas-grotesk/AtlasGrotesk-Light.woff2") format("woff2");
+  font-style:normal;font-weight:300;
+}
+
+@font-face {
+  font-family:"AtlasGrotesk";
+  src:url("fonts/atlas-grotesk/AtlasGrotesk-Light.woff2") format("woff2");
+  font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"AtlasGrotesk";
+  src:url("fonts/atlas-grotesk/AtlasGrotesk-Bold.woff2") format("woff2");
+  font-style:normal;font-weight:600;
+}
+
+/* @font-face {
   font-family: 'Whitney HTF';
   src: url('whitney_book-webfont.woff2') format('woff2');
   font-weight: 400;
@@ -101,7 +124,7 @@
   src: url('whitney_black-webfont.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
-}
+} */
 
 html,
 body,
@@ -112,6 +135,7 @@ body,
   /* background: var(--color-dark-05) !important; */
   background: #fff !important;
   font-size: var(--font-size);
+  font-weight: 300;
 }
 
 .roam-body .roam-app .roam-sidebar-container {
