@@ -109,8 +109,13 @@ body,
 .roam-topbar,
  #right-sidebar,
 .roam-sidebar-container {
-  background: var(--color-dark-05) !important;
+  /* background: var(--color-dark-05) !important; */
+  background: #fff !important;
   font-size: var(--font-size);
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+  background: #f9f9f9 !important;
 }
 
 a,
@@ -782,9 +787,10 @@ code,
 }
 
 .rm-block-input {
-  background: #fff;
+  background: #f9f9f9;
   padding-left: 5px;
   padding-right: 5px;
+  border: 1px solid #f1f1f1;
 }
 
 .roam-highlight {
