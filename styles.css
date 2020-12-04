@@ -320,6 +320,10 @@ em {
   padding: 8px 8px 8px 0 !important;
 }
 
+.rm-reference-item .rm-zoom-item-content div {
+  line-height: 1.42857143;
+}
+
 .rm-inline-references {
   padding: 12px 20px !important;
   border-radius: 4px;
