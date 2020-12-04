@@ -502,7 +502,7 @@ span[data-link-title="Happy Hour"],
 span[data-link-title="Inspiration"],
 span[data-link-title="Health"],
 span[data-link-title="Ideas"] {
-  background-color: var(--color-morning);
+  background-color: var(--color-medium-1);
   color: var(--color-morning-text);
 }
 
