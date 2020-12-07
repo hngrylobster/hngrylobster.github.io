@@ -853,4 +853,7 @@ code,
   h1.rm-title-display {
   	font-size: 30px;
   }
+  .rm-block-input {
+    border: 0 !important;
+  }
 }
