@@ -822,6 +822,7 @@ code,
 
 .roam-highlight {
   margin-left: 4px;
+  padding: 4px;
 }
 
 .rm-paren.rm-paren--closed, .rm-paren.rm-paren--closed .rm-spacer {
@@ -834,6 +835,21 @@ code,
 
 .rm-paren__paren--right {
   padding-left: 2px;
+}
+
+/*
+  Experimental
+*/
+
+div[data-page-links*='callout'] {
+  background: #ecfafe;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+span.rm-page-ref-tag[data-tag='callout'] {
+  display: none;
 }
 
 /*
