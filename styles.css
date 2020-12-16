@@ -856,7 +856,7 @@ span.rm-page-ref-tag[data-tag='callout'] {
   display: none;
 }
 
-div[data-page-links*='callout'] {
+div[data-page-links*='embed'] {
   background-color: #EBF1F5;
 }
 
