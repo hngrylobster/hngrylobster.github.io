@@ -824,7 +824,9 @@ code,
   margin-left: 4px;
 }
 
-
+.rm-paren.rm-paren--closed {
+  font-family: Inter, sans-serif;
+}
 
 /*
   Queries
