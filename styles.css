@@ -824,7 +824,7 @@ code,
   margin-left: 4px;
 }
 
-.rm-paren.rm-paren--closed {
+.rm-paren.rm-paren--closed, .rm-paren.rm-paren--closed .rm-spacer {
   font-family: Inter, sans-serif;
 }
 
