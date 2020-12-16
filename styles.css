@@ -828,6 +828,14 @@ code,
   font-family: Inter, sans-serif;
 }
 
+.rm-paren__paren--left {
+  padding-right: 2px;
+}
+
+.rm-paren__paren--right {
+  padding-left: 2px;
+}
+
 /*
   Queries
 */
