@@ -848,6 +848,11 @@ div[data-page-links*='callout'] {
   padding-top: 5px;
 }
 
+div[data-page-links*='callout'] .rm-block-input {
+  border: 1px solid #dcf6fd;
+  background: #fff;
+}
+
 span.rm-page-ref-tag[data-tag='callout'] {
   display: none;
 }
