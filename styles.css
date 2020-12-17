@@ -661,7 +661,7 @@ span.rm-page-ref-tag[data-tag="Evergreen"],
 span.rm-page-ref-tag[data-tag="Decision"],
 span.rm-page-ref-tag[data-tag="Concepts"],
 span.rm-page-ref-tag[data-tag="Food"] {
-  padding: 3px 6px;
+  padding: 2px 6px;
   white-space: nowrap;
   border-radius: 3px;
   font-size: 15px;
@@ -843,8 +843,8 @@ code,
   padding: 4px;
 }
 
-.rm-paren.rm-paren--closed, .rm-paren.rm-paren--closed .rm-spacer {
-  font-family: Inter, sans-serif;
+.rm-paren.rm-paren--closed {
+  margin-left: 5px;
 }
 
 .rm-paren__paren--left {
