@@ -580,7 +580,7 @@ span[data-link-title="Ideas"]:hover,
 span[data-link-title="Words"]:hover,
 span[data-link-title="Happy Hour"]:hover,
 span[data-link-title="Inspiration"]:hover,
-span[data-link-title="Morning Routine"]:hover,
+/* span[data-link-title="Morning Routine"]:hover, */
 span[data-link-title="Evening Routine"]:hover {
   opacity: 1;
 }
@@ -591,7 +591,7 @@ span[data-link-title="Words"] .rm-page-ref-brackets,
 span[data-link-title="Ideas"] .rm-page-ref-brackets,
 span[data-link-title="Inspiration"] .rm-page-ref-brackets,
 span[data-link-title="Happy Hour"] .rm-page-ref-brackets,
-span[data-link-title="Morning Routine"] .rm-page-ref-brackets,
+/* span[data-link-title="Morning Routine"] .rm-page-ref-brackets, */
 span[data-link-title="Evening Routine"] .rm-page-ref-brackets {
   display: none;
 }
@@ -602,7 +602,7 @@ span[data-link-title="Health"] .rm-page-ref-link-color,
 span[data-link-title="Money"] .rm-page-ref-link-color,
 span[data-link-title="Inspiration"] .rm-page-ref-link-color,
 span[data-link-title="Happy Hour"] .rm-page-ref-link-color,
-span[data-link-title="Morning Routine"] .rm-page-ref-link-color,
+/* span[data-link-title="Morning Routine"] .rm-page-ref-link-color, */
 span[data-link-title="Evening Routine"] .rm-page-ref-link-color {
   color: var(--color-morning-text);
   letter-spacing: 0.05rem;
