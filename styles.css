@@ -42,10 +42,10 @@
   --font-family-tags: SFMono-Regular, Menlo, Monaco,
                Consolas, "Liberation Mono",
                "Courier New", monospace;
-  --font-family-normal: "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  --font-family-normal: "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
   
-  --font-size: 15px;
+  --font-size: 16px;
   --font-size-code: 14px;
 }
 
@@ -75,6 +75,24 @@
 } */
 
 @font-face {
+  font-family:"Mallory";
+  src:url("fonts/mallory/Mallory_Compact_Light.woff2") format("woff2");
+  font-style:normal;font-weight:200;
+}
+
+@font-face {
+  font-family:"Mallory";
+  src:url("fonts/mallory/Mallory_Compact_Medium.woff2") format("woff2");
+  font-style:normal;font-weight:600;
+}
+
+@font-face {
+  font-family:"Mallory";
+  src:url("fonts/mallory/Mallory_Compact_Bold.woff2") format("woff2");
+  font-style:normal;font-weight:800;
+}
+
+/* @font-face {
   font-family:"AtlasGrotesk";
   src:url("fonts/atlas-grotesk/AtlasGrotesk-Thin.woff2") format("woff2");
   font-style:normal;font-weight:200;
@@ -96,7 +114,7 @@
   font-family:"AtlasGrotesk";
   src:url("fonts/atlas-grotesk/AtlasGrotesk-Bold.woff2") format("woff2");
   font-style:normal;font-weight:600;
-}
+} */
 
 /* @font-face {
   font-family: 'Whitney HTF';
@@ -442,7 +460,7 @@ span[data-link-title="Evening Routine"]::before {
   content: "🌕 ";
 }
 */
-span[data-link-title="Morning Routine"]::before,
+/* span[data-link-title="Morning Routine"]::before, */
 span[data-link-title="Evening Routine"]::before,
 span[data-link-title="Inspiration"]::before,
 span[data-link-title="Ideas"]::before,
@@ -498,9 +516,9 @@ span[data-link-title="Words"]::before {
   content: "\f189 ";
 }
 
-span[data-link-title="Morning Routine"]::before {
+/* span[data-link-title="Morning Routine"]::before {
   content: "\f34b ";
-}
+} */
 
 span[data-link-title="Evening Routine"]::before {
   content: "\f067 ";
@@ -512,7 +530,7 @@ span[data-link-title="Words"],
 span[data-link-title="Ideas"],
 span[data-link-title="Inspiration"],
 span[data-link-title="Happy Hour"],
-span[data-link-title="Morning Routine"],
+/* span[data-link-title="Morning Routine"], */
 span[data-link-title="Evening Routine"] {
   padding: 4px 6px;
   border-radius: 3px;
@@ -523,7 +541,7 @@ span[data-link-title="Evening Routine"] {
   text-decoration: none;
 }
 
-span[data-link-title="Morning Routine"],
+/* span[data-link-title="Morning Routine"], */
 span[data-link-title="Evening Routine"],
 span[data-link-title="Words"],
 span[data-link-title="Money"],
@@ -535,7 +553,7 @@ span[data-link-title="Ideas"] {
   color: var(--color-morning-text);
 }
 
-.rm-reference-item span[data-link-title="Morning Routine"],
+/* .rm-reference-item span[data-link-title="Morning Routine"], */
 .rm-reference-item span[data-link-title="Evening Routine"],
 .rm-reference-item span[data-link-title="Health"],
 .rm-reference-item span[data-link-title="Ideas"],
@@ -543,7 +561,7 @@ span[data-link-title="Ideas"] {
 .rm-reference-item span[data-link-title="Money"],
 .rm-reference-item span[data-link-title="Code"],
 .rm-reference-item span[data-link-title="Inspiration"],
-.rm-inline-references span[data-link-title="Morning Routine"],
+/* .rm-inline-references span[data-link-title="Morning Routine"], */
 .rm-inline-references span[data-link-title="Evening Routine"],
 .rm-inline-references span[data-link-title="Inspiration"],
 .rm-inline-references span[data-link-title="Health"],
@@ -599,7 +617,7 @@ span[data-link-title="Money"] .rm-page-ref:hover,
 span[data-link-title="Health"] .rm-page-ref:hover,
 span[data-link-title="Inspiration"] .rm-page-ref:hover,
 span[data-link-title="Happy Hour"] .rm-page-ref:hover,
-span[data-link-title="Morning Routine"] .rm-page-ref:hover,
+/* span[data-link-title="Morning Routine"] .rm-page-ref:hover, */
 span[data-link-title="Evening Routine"] .rm-page-ref:hover {
   text-decoration: none;
 }
@@ -843,8 +861,8 @@ code,
 
 div[data-page-links*='callout'] {
   background: #ecfafe;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 5px 0;
+  margin: 5px 0;
 }
 
 div[data-page-links*='callout'] .rm-block-input {
@@ -858,6 +876,8 @@ span.rm-page-ref-tag[data-tag='callout'] {
 
 div[data-page-links*='embed'] {
   background-color: #EBF1F5;
+  padding: 5px 0;
+  margin: 5px 0;
 }
 
 /*
