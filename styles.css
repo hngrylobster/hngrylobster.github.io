@@ -475,7 +475,7 @@ span[data-link-title="Health"]::before {
   display: inline-block;
   padding-right: 5px;
   position: relative;
-  top: 1px;
+  /* top: 1px; */
   font-size: 13px;
 }
 
@@ -609,6 +609,8 @@ span[data-link-title="Evening Routine"] .rm-page-ref-link-color {
   font-size: 12px;
   padding: 0 2px;
   text-decoration: none;
+  position: relative;
+  top: -2px;
 }
 
 span[data-link-title="Ideas"] .rm-page-ref:hover,
@@ -858,6 +860,10 @@ code,
 /*
   Experimental
 */
+
+.slider .slider-cell {
+  display: none;
+}
 
 div[data-page-links*='callout'] {
   background: #ecfafe;
