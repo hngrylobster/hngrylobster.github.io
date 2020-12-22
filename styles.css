@@ -532,7 +532,7 @@ span[data-link-title="Inspiration"],
 span[data-link-title="Happy Hour"],
 /* span[data-link-title="Morning Routine"], */
 span[data-link-title="Evening Routine"] {
-  padding: 4px 6px;
+  padding: 2px 4px;
   border-radius: 3px;
   opacity: .9;
   /* font-size: 12px; */
