@@ -832,7 +832,7 @@ code,
   max-width: 60ch;
 }
 
-.rm-block-input {
+.rm-block-input { 
   background: #f9f9f9;
   padding-left: 5px;
   padding-right: 5px;
@@ -916,5 +916,8 @@ div[data-page-links*='embed'] {
   }
   .rm-block-input {
     border: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
