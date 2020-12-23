@@ -659,11 +659,15 @@ span[data-link-title="Remember"] .rm-page-ref--link {
 }
 
 span[data-link-title="Remember"] .rm-page-ref--link::after {
+  content: "";
+  display: block;
   border-width: 40px;
   border-left-color: transparent;
   border-left-width: 0;
   border-top-color: transparent;
   border-right-color: #355070;
+  border-style: solid;
+  position: absolute;
   margin: -40px 0 0;
   left: -40px;
   right: auto;
