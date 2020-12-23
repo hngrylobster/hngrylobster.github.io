@@ -649,6 +649,7 @@ span[data-link-title$=":00"] .rm-page-ref--link:hover {
 
 span[data-link-title="Remember"] .rm-page-ref--link {
   padding: 2px 6px;
+  margin-left: 6px;
   position: relative;
   white-space: nowrap;
   text-decoration: none;
