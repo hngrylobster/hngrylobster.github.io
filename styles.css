@@ -647,6 +647,28 @@ span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
   border: 1px solid #e7eaec;
 }
 
+span[data-link-title="Remember"] .rm-page-ref-link-color {
+  padding: 2px 6px;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: #7899D4;
+  color: #fff;
+}
+
+span[data-link-title="Remember"] .rm-page-ref-link-color:after {
+  border-width: 40px;
+  border-left-color: transparent;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-right-color: #3498db;
+  margin: -40px 0 0;
+  left: -40px;
+  right: auto;
+  top: 50%;
+  bottom: auto;
+}
+
 /* tag styles. ex: #Article
 --------------------------- */
 span.rm-page-ref-tag[data-tag="Resourcing"],
