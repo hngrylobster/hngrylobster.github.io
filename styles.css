@@ -656,7 +656,7 @@ span[data-link-title="Remember"] .rm-page-ref--link {
   color: #fff;
 }
 
-span[data-link-title="Remember"] .rm-page-ref--link::after {
+span[data-link-title="Remember"] .rm-page-ref--link:after {
   border-width: 40px;
   border-left-color: transparent;
   border-left-width: 0;
