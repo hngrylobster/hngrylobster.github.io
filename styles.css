@@ -161,7 +161,7 @@ body,
 }
 
 a,
-.rm-page-ref-link-color {
+.rm-page-ref--link {
   color: var(--color-medium);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
@@ -169,7 +169,7 @@ a,
 }
 
 .rm-block-text a:hover,
-.rm-page-ref-link-color:hover {
+.rm-page-ref--link:hover {
   color: var(--color-dark);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
@@ -479,7 +479,7 @@ span[data-link-title="Health"]::before {
   font-size: 13px;
 }
 
-span[data-link-title^="[[Books]]"] > .rm-page-ref-link-color::after {
+span[data-link-title^="[[Books]]"] > .rm-page-ref--link::after {
   font-family: "phosphor" !important;
   font-style: normal !important;
   font-weight: bold !important;
@@ -596,14 +596,14 @@ span[data-link-title="Evening Routine"] .rm-page-ref-brackets {
   display: none;
 }
 
-span[data-link-title="Ideas"] .rm-page-ref-link-color,
-span[data-link-title="Words"] .rm-page-ref-link-color,
-span[data-link-title="Health"] .rm-page-ref-link-color,
-span[data-link-title="Money"] .rm-page-ref-link-color,
-span[data-link-title="Inspiration"] .rm-page-ref-link-color,
-span[data-link-title="Happy Hour"] .rm-page-ref-link-color,
-/* span[data-link-title="Morning Routine"] .rm-page-ref-link-color, */
-span[data-link-title="Evening Routine"] .rm-page-ref-link-color {
+span[data-link-title="Ideas"] .rm-page-ref--link,
+span[data-link-title="Words"] .rm-page-ref--link,
+span[data-link-title="Health"] .rm-page-ref--link,
+span[data-link-title="Money"] .rm-page-ref--link,
+span[data-link-title="Inspiration"] .rm-page-ref--link,
+span[data-link-title="Happy Hour"] .rm-page-ref--link,
+/* span[data-link-title="Morning Routine"] .rm-page-ref--link, */
+span[data-link-title="Evening Routine"] .rm-page-ref--link {
   color: var(--color-morning-text);
   letter-spacing: 0.05rem;
   font-size: 12px;
@@ -624,10 +624,10 @@ span[data-link-title="Evening Routine"] .rm-page-ref:hover {
   text-decoration: none;
 }
 
-span[data-link-title$=":45"] .rm-page-ref-link-color,
-span[data-link-title$=":30"] .rm-page-ref-link-color,
-span[data-link-title$=":15"] .rm-page-ref-link-color,
-span[data-link-title$=":00"] .rm-page-ref-link-color {
+span[data-link-title$=":45"] .rm-page-ref--link,
+span[data-link-title$=":30"] .rm-page-ref--link,
+span[data-link-title$=":15"] .rm-page-ref--link,
+span[data-link-title$=":00"] .rm-page-ref--link {
   font-family: var(--font-monospace);
   font-size: 14px;
   color: var(--color-hour-link);
@@ -638,25 +638,25 @@ span[data-link-title$=":00"] .rm-page-ref-link-color {
   text-decoration: none;
 }
 
-span[data-link-title$=":45"] .rm-page-ref-link-color:hover,
-span[data-link-title$=":30"] .rm-page-ref-link-color:hover,
-span[data-link-title$=":15"] .rm-page-ref-link-color:hover,
-span[data-link-title$=":00"] .rm-page-ref-link-color:hover {
+span[data-link-title$=":45"] .rm-page-ref--link:hover,
+span[data-link-title$=":30"] .rm-page-ref--link:hover,
+span[data-link-title$=":15"] .rm-page-ref--link:hover,
+span[data-link-title$=":00"] .rm-page-ref--link:hover {
   text-decoration: none;
   color: var(--color-hour-link-dark);
   border: 1px solid #e7eaec;
 }
 
-span[data-link-title="Remember"] .rm-page-ref-link-color {
+span[data-link-title="Remember"] .rm-page-ref--link {
   padding: 2px 6px;
   white-space: nowrap;
-  border-radius: 3px;
+  text-decoration: none;
   font-size: 15px;
   background-color: #7899D4;
   color: #fff;
 }
 
-span[data-link-title="Remember"] .rm-page-ref-link-color:after {
+span[data-link-title="Remember"] .rm-page-ref--link:after {
   border-width: 40px;
   border-left-color: transparent;
   border-left-width: 0;
