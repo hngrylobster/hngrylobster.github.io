@@ -677,20 +677,20 @@ span[data-link-title="Remember"] .rm-page-ref--link::after {
 
 /* tag styles. ex: #Article
 --------------------------- */
-span.rm-page-ref-tag[data-tag="Resourcing"],
-span.rm-page-ref-tag[data-tag="Issue"],
-span.rm-page-ref-tag[data-tag="Quotes"],
-span.rm-page-ref-tag[data-tag="Draft"],
-span.rm-page-ref-tag[data-tag="Revised"],
-span.rm-page-ref-tag[data-tag="Inspiration"],
-span.rm-page-ref-tag[data-tag="Unfinished Thoughts"],
-span.rm-page-ref-tag[data-tag="Code"],
-span.rm-page-ref-tag[data-tag="Thoughts"],
-span.rm-page-ref-tag[data-tag="Snippets"],
-span.rm-page-ref-tag[data-tag="Evergreen"],
-span.rm-page-ref-tag[data-tag="Decision"],
-span.rm-page-ref-tag[data-tag="Concepts"],
-span.rm-page-ref-tag[data-tag="Food"] {
+span.rm-page-ref--tag[data-tag="Resourcing"],
+span.rm-page-ref--tag[data-tag="Issue"],
+span.rm-page-ref--tag[data-tag="Quotes"],
+span.rm-page-ref--tag[data-tag="Draft"],
+span.rm-page-ref--tag[data-tag="Revised"],
+span.rm-page-ref--tag[data-tag="Inspiration"],
+span.rm-page-ref--tag[data-tag="Unfinished Thoughts"],
+span.rm-page-ref--tag[data-tag="Code"],
+span.rm-page-ref--tag[data-tag="Thoughts"],
+span.rm-page-ref--tag[data-tag="Snippets"],
+span.rm-page-ref--tag[data-tag="Evergreen"],
+span.rm-page-ref--tag[data-tag="Decision"],
+span.rm-page-ref--tag[data-tag="Concepts"],
+span.rm-page-ref--tag[data-tag="Food"] {
   padding: 2px 6px;
   white-space: nowrap;
   border-radius: 3px;
@@ -698,75 +698,75 @@ span.rm-page-ref-tag[data-tag="Food"] {
   /* text-transform: uppercase; */
 }
 
-span.rm-page-ref-tag[data-tag="Food"]:hover,
-span.rm-page-ref-tag[data-tag="Draft"]:hover,
-span.rm-page-ref-tag[data-tag="Revised"]:hover,
-span.rm-page-ref-tag[data-tag="Code"]:hover,
-span.rm-page-ref-tag[data-tag="Decision"]:hover,
-span.rm-page-ref-tag[data-tag="Quotes"]:hover,
-span.rm-page-ref-tag[data-tag="Inspiration"]:hover,
-span.rm-page-ref-tag[data-tag="Snippets"]:hover,
-span.rm-page-ref-tag[data-tag="Resourcing"]:hover,
-span.rm-page-ref-tag[data-tag="Issue"]:hover,
-span.rm-page-ref-tag[data-tag="Thoughts"]:hover,
-span.rm-page-ref-tag[data-tag="Evergreen"]:hover,
-span.rm-page-ref-tag[data-tag="Concepts"]:hover,
-span.rm-page-ref-tag[data-tag="Unfinished Thoughts"]:hover {
+span.rm-page-ref--tag[data-tag="Food"]:hover,
+span.rm-page-ref--tag[data-tag="Draft"]:hover,
+span.rm-page-ref--tag[data-tag="Revised"]:hover,
+span.rm-page-ref--tag[data-tag="Code"]:hover,
+span.rm-page-ref--tag[data-tag="Decision"]:hover,
+span.rm-page-ref--tag[data-tag="Quotes"]:hover,
+span.rm-page-ref--tag[data-tag="Inspiration"]:hover,
+span.rm-page-ref--tag[data-tag="Snippets"]:hover,
+span.rm-page-ref--tag[data-tag="Resourcing"]:hover,
+span.rm-page-ref--tag[data-tag="Issue"]:hover,
+span.rm-page-ref--tag[data-tag="Thoughts"]:hover,
+span.rm-page-ref--tag[data-tag="Evergreen"]:hover,
+span.rm-page-ref--tag[data-tag="Concepts"]:hover,
+span.rm-page-ref--tag[data-tag="Unfinished Thoughts"]:hover {
   text-decoration: none;
 }
 
-span.rm-page-ref-tag[data-tag="Thoughts"],
-span.rm-page-ref-tag[data-tag="Unfinished Thoughts"] {
+span.rm-page-ref--tag[data-tag="Thoughts"],
+span.rm-page-ref--tag[data-tag="Unfinished Thoughts"] {
   background-color: var(--color-putty);
   color: var(--color-gunmetal);
 }
 
-span.rm-page-ref-tag[data-tag="Issue"] {
+span.rm-page-ref--tag[data-tag="Issue"] {
   background-color: #ED5B5C;
   color: #fff;
 }
 
-span.rm-page-ref-tag[data-tag="Resourcing"] {
+span.rm-page-ref--tag[data-tag="Resourcing"] {
   background-color: #304D6D;
   color: #A7CCED;
 }
 
-/* span.rm-page-ref-tag[data-tag="Food"] {
+/* span.rm-page-ref--tag[data-tag="Food"] {
   background-color: #203B34;
   color: #FDBD37;
 }
 
-span.rm-page-ref-tag[data-tag="Inspiration"] {
+span.rm-page-ref--tag[data-tag="Inspiration"] {
   background-color: #e07a5f;
   color: rgba(255,255,255,0.8);
 } */
 
-span.rm-page-ref-tag[data-tag="Inspiration"],
-span.rm-page-ref-tag[data-tag="Decision"],
-span.rm-page-ref-tag[data-tag="Food"] {
+span.rm-page-ref--tag[data-tag="Inspiration"],
+span.rm-page-ref--tag[data-tag="Decision"],
+span.rm-page-ref--tag[data-tag="Food"] {
   --bg-opacity: 1;
   --text-opacity: 1;
   background-color: rgba(226,232,240,var(--bg-opacity));
   color: rgba(45,55,72,var(--text-opacity));
 }
 
-span.rm-page-ref-tag[data-tag="Evergreen"] {
+span.rm-page-ref--tag[data-tag="Evergreen"] {
   background-color: #4B543B;
   color: #fff;
 }
 
-span.rm-page-ref-tag[data-tag="Draft"] {
+span.rm-page-ref--tag[data-tag="Draft"] {
   background-color: #DCE2AA;
   color: #2C2D22;
 }
 
-span.rm-page-ref-tag[data-tag="Revised"] {
+span.rm-page-ref--tag[data-tag="Revised"] {
   background-color: #8ED081;
   color: rgba(0,0,0,.8);
 }
 
-span.rm-page-ref-tag[data-tag="Snippets"],
-span.rm-page-ref-tag[data-tag="Code"] {
+span.rm-page-ref--tag[data-tag="Snippets"],
+span.rm-page-ref--tag[data-tag="Code"] {
   background-color: #A8CFE1;
   color: #0B0C10;
   font-size: 13px;
@@ -775,19 +775,19 @@ span.rm-page-ref-tag[data-tag="Code"] {
   font-family: var(--font-monospace);
 }
 
-/* span.rm-page-ref-tag[data-tag="Quotes"] {
+/* span.rm-page-ref--tag[data-tag="Quotes"] {
   background-color: #142B3E;
   color: #BFD7EA;
 } */
 
-span.rm-page-ref-tag[data-tag="Quotes"] {
+span.rm-page-ref--tag[data-tag="Quotes"] {
   --bg-opacity: 1;
   --text-opacity: 1;
   background-color: rgba(226,232,240,var(--bg-opacity));
   color: rgba(45,55,72,var(--text-opacity));
 }
 
-span.rm-page-ref-tag[data-tag="Concepts"] {
+span.rm-page-ref--tag[data-tag="Concepts"] {
   background-color: #2F4858;
   color: rgba(255,255,255,0.8);
 }
@@ -906,7 +906,7 @@ div[data-page-links*='callout'] .rm-block-input {
   background: #fff;
 }
 
-span.rm-page-ref-tag[data-tag='callout'] {
+span.rm-page-ref--tag[data-tag='callout'] {
   display: none;
 }
 
