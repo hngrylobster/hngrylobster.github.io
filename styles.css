@@ -466,8 +466,7 @@ span[data-link-title="Inspiration"]::before,
 span[data-link-title="Ideas"]::before,
 span[data-link-title="Happy Hour"]::before,
 span[data-link-title="Money"]::before,
-span[data-link-title="Words"]::before,
-span[data-link-title="Health"]::before {
+span[data-link-title="Words"]::before {
   font-family: "phosphor" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -500,10 +499,6 @@ span[data-link-title="Happy Hour"]::before {
   content: "\f035 ";
 }
 
-span[data-link-title="Health"]::before {
-  content: "\e900 ";
-}
-
 span[data-link-title="Ideas"]::before {
   content: "\efa4 ";
 }
@@ -516,10 +511,6 @@ span[data-link-title="Words"]::before {
   content: "\f189 ";
 }
 
-/* span[data-link-title="Morning Routine"]::before {
-  content: "\f34b ";
-} */
-
 span[data-link-title="Evening Routine"]::before {
   content: "\f067 ";
 }
@@ -529,7 +520,6 @@ span[data-link-title="Words"],
 span[data-link-title="Ideas"],
 span[data-link-title="Inspiration"],
 span[data-link-title="Happy Hour"],
-/* span[data-link-title="Morning Routine"], */
 span[data-link-title="Evening Routine"] {
   padding: 2px 4px;
   border-radius: 3px;
@@ -658,6 +648,22 @@ span[data-link-title="Remember"] .rm-page-ref--link {
 
 span[data-link-title="Health"] .rm-page-ref--link {
   background-color: #9D5C63;
+}
+
+span[data-link-title="Health"] .rm-page-ref--link::before {
+  font-family: "phosphor" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: never;
+  display: inline-block;
+  padding-right: 5px;
+  position: relative;
+  font-size: 13px;
+  color: #fff;
+}
+
+span[data-link-title="Health"] .rm-page-ref--link::before {
+  content: "\e900 ";
 }
 
 span[data-link-title="Health"] .rm-page-ref--link::after,
