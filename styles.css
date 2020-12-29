@@ -524,7 +524,6 @@ span[data-link-title="Evening Routine"]::before {
   content: "\f067 ";
 }
 
-span[data-link-title="Health"],
 span[data-link-title="Money"],
 span[data-link-title="Words"],
 span[data-link-title="Ideas"],
@@ -547,7 +546,6 @@ span[data-link-title="Words"],
 span[data-link-title="Money"],
 span[data-link-title="Happy Hour"],
 span[data-link-title="Inspiration"],
-span[data-link-title="Health"],
 span[data-link-title="Ideas"] {
   background-color: var(--color-medium-1);
   color: var(--color-morning-text);
@@ -575,7 +573,6 @@ span[data-link-title="Ideas"] {
 }
 
 span[data-link-title="Money"]:hover,
-span[data-link-title="Health"]:hover,
 span[data-link-title="Ideas"]:hover,
 span[data-link-title="Words"]:hover,
 span[data-link-title="Happy Hour"]:hover,
@@ -585,7 +582,6 @@ span[data-link-title="Evening Routine"]:hover {
   opacity: 1;
 }
 
-span[data-link-title="Health"] .rm-page-ref-brackets,
 span[data-link-title="Money"] .rm-page-ref-brackets,
 span[data-link-title="Words"] .rm-page-ref-brackets,
 span[data-link-title="Ideas"] .rm-page-ref-brackets,
@@ -598,7 +594,6 @@ span[data-link-title="Evening Routine"] .rm-page-ref-brackets {
 
 span[data-link-title="Ideas"] .rm-page-ref--link,
 span[data-link-title="Words"] .rm-page-ref--link,
-span[data-link-title="Health"] .rm-page-ref--link,
 span[data-link-title="Money"] .rm-page-ref--link,
 span[data-link-title="Inspiration"] .rm-page-ref--link,
 span[data-link-title="Happy Hour"] .rm-page-ref--link,
@@ -616,7 +611,6 @@ span[data-link-title="Evening Routine"] .rm-page-ref--link {
 span[data-link-title="Ideas"] .rm-page-ref:hover,
 span[data-link-title="Words"] .rm-page-ref:hover,
 span[data-link-title="Money"] .rm-page-ref:hover,
-span[data-link-title="Health"] .rm-page-ref:hover,
 span[data-link-title="Inspiration"] .rm-page-ref:hover,
 span[data-link-title="Happy Hour"] .rm-page-ref:hover,
 /* span[data-link-title="Morning Routine"] .rm-page-ref:hover, */
@@ -647,6 +641,7 @@ span[data-link-title$=":00"] .rm-page-ref--link:hover {
   border: 1px solid #e7eaec;
 }
 
+span[data-link-title="Health"] .rm-page-ref--link,
 span[data-link-title="Remember"] .rm-page-ref--link {
   padding: 2px 8px;
   margin-left: 10px;
@@ -654,10 +649,18 @@ span[data-link-title="Remember"] .rm-page-ref--link {
   white-space: nowrap;
   text-decoration: none;
   font-size: 15px;
-  background-color: #355070;
   color: #fff;
 }
 
+span[data-link-title="Remember"] .rm-page-ref--link {
+  background-color: #355070;
+}
+
+span[data-link-title="Remember"] .rm-page-ref--link {
+  background-color: #9D5C63;
+}
+
+span[data-link-title="Health"] .rm-page-ref--link::after
 span[data-link-title="Remember"] .rm-page-ref--link::after {
   content: "";
   display: block;
