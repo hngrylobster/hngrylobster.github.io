@@ -182,7 +182,7 @@ a,
 
 .roam-block {
   /* margin-top: -2px; */
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 b, strong {
@@ -880,7 +880,7 @@ code,
   padding-left: 5px;
   padding-right: 5px;
   border: 1px solid #f1f1f1;
-  line-height: 1.7em;
+  line-height: 1.5em;
   margin-top: 0;
 }
 
@@ -953,7 +953,7 @@ div[data-page-links*='embed'] {
 
 @media only screen and (max-width: 600px) {
   :root {
-    --font-size: 16px;
+    --font-size: 17px;
   }
   h1.rm-title-display {
   	font-size: 30px;
