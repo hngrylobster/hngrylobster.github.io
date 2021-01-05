@@ -909,19 +909,35 @@ code,
   display: none;
 }
 
+div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
   background: #ecfafe;
   padding: 5px 0;
   margin: 5px 0;
 }
 
+div[data-page-links*='meeting'] .rm-block-input,
 div[data-page-links*='callout'] .rm-block-input {
   border: 1px solid #d3e1e5;
   background: #fff;
 }
 
+span.rm-page-ref--tag[data-tag='meeting'],
 span.rm-page-ref--tag[data-tag='callout'] {
   display: none;
+}
+
+div[data-page-links*='meeting']::after {
+  content: 'meeting';
+  text-transform: uppercase;
+  font-size: 11px;
+  position: absolute;
+  right: 25px;
+  background: #fff;
+  border: 2px solid #edfafe;
+  padding: 2px 6px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 div[data-page-links*='embed'] {
