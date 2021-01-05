@@ -638,11 +638,12 @@ span[data-link-title$=":00"] .rm-page-ref--link:hover {
   Star Tags
 */
 
-span.rm-page-ref--tag[data-tag="✩"],
-span.rm-page-ref--tag[data-tag="✩✩"],
-span.rm-page-ref--tag[data-tag="✩✩✩"],
-span.rm-page-ref--tag[data-tag="✩✩✩✩"],
-span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
+span[data-link-title$="✩"] .rm-page-ref--link,
+span[data-link-title$="✩✩"] .rm-page-ref--link,
+span[data-link-title$="✩✩✩"] .rm-page-ref--link,
+span[data-link-title$="✩✩✩✩"] .rm-page-ref--link,
+span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link,
+span[data-link-title$="✩✩✩✩✩✩"] .rm-page-ref--link, {
   color: #fff;
   padding: 2px 6px;
   position: relative;
@@ -651,11 +652,11 @@ span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
   background: #9D4400;
 }
 
-span.rm-page-ref--tag[data-tag="✩"]:hover,
-span.rm-page-ref--tag[data-tag="✩✩"]:hover,
-span.rm-page-ref--tag[data-tag="✩✩✩"]:hover,
-span.rm-page-ref--tag[data-tag="✩✩✩✩"]:hover,
-span.rm-page-ref--tag[data-tag="✩✩✩✩✩"]:hover {
+span[data-link-title$="✩"] .rm-page-ref--link:hover,
+span[data-link-title$="✩✩"] .rm-page-ref--link:hover,
+span[data-link-title$="✩✩✩"] .rm-page-ref--link:hover,
+span[data-link-title$="✩✩✩✩"] .rm-page-ref--link:hover,
+span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link:hover {
   text-decoration: none;
 }
 
