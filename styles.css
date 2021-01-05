@@ -652,6 +652,14 @@ span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
   background: #9D4400;
 }
 
+span.rm-page-ref--tag[data-tag="✩"]:hover,
+span.rm-page-ref--tag[data-tag="✩✩"]:hover,
+span.rm-page-ref--tag[data-tag="✩✩✩"]:hover,
+span.rm-page-ref--tag[data-tag="✩✩✩✩"]:hover
+span.rm-page-ref--tag[data-tag="✩✩✩✩✩"]:hover {
+  text-decoration: none;
+}
+
 span[data-link-title="Health"] .rm-page-ref--link,
 span[data-link-title="Remember"] .rm-page-ref--link {
   padding: 2px 8px;
