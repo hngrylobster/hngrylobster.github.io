@@ -641,7 +641,7 @@ span[data-link-title$=":00"] .rm-page-ref--link:hover {
 span.rm-page-ref--tag[data-tag="✩"],
 span.rm-page-ref--tag[data-tag="✩✩"],
 span.rm-page-ref--tag[data-tag="✩✩✩"],
-span.rm-page-ref--tag[data-tag="✩✩✩✩"]
+span.rm-page-ref--tag[data-tag="✩✩✩✩"],
 span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
   color: #fff;
   padding: 2px 6px;
@@ -655,7 +655,7 @@ span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
 span.rm-page-ref--tag[data-tag="✩"]:hover,
 span.rm-page-ref--tag[data-tag="✩✩"]:hover,
 span.rm-page-ref--tag[data-tag="✩✩✩"]:hover,
-span.rm-page-ref--tag[data-tag="✩✩✩✩"]:hover
+span.rm-page-ref--tag[data-tag="✩✩✩✩"]:hover,
 span.rm-page-ref--tag[data-tag="✩✩✩✩✩"]:hover {
   text-decoration: none;
 }
