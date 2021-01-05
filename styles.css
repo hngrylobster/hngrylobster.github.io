@@ -645,7 +645,7 @@ span[data-link-title$="✩✩✩✩"] .rm-page-ref--link,
 span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link,
 span[data-link-title$="✩✩✩✩✩✩"] .rm-page-ref--link {
   color: #fff;
-  padding: 2px 6px;
+  padding: 2px 4px;
   position: relative;
   white-space: nowrap;
   text-decoration: none;
@@ -736,7 +736,7 @@ span.rm-page-ref--tag[data-tag="Evergreen"],
 span.rm-page-ref--tag[data-tag="Decision"],
 span.rm-page-ref--tag[data-tag="Concepts"],
 span.rm-page-ref--tag[data-tag="Food"] {
-  padding: 2px 6px;
+  padding: 2px 4px;
   white-space: nowrap;
   font-size: 15px;
   /* text-transform: uppercase; */
