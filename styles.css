@@ -608,6 +608,10 @@ span[data-link-title="Evening Routine"] .rm-page-ref:hover {
   text-decoration: none;
 }
 
+/*
+  Time Tags
+*/
+
 span[data-link-title$=":45"] .rm-page-ref--link,
 span[data-link-title$=":30"] .rm-page-ref--link,
 span[data-link-title$=":15"] .rm-page-ref--link,
@@ -628,6 +632,24 @@ span[data-link-title$=":00"] .rm-page-ref--link:hover {
   text-decoration: none;
   color: var(--color-hour-link-dark);
   border: 1px solid #e7eaec;
+}
+
+/*
+  Star Tags
+*/
+
+span.rm-page-ref--tag[data-tag="✩"],
+span.rm-page-ref--tag[data-tag="✩✩"],
+span.rm-page-ref--tag[data-tag="✩✩✩"],
+span.rm-page-ref--tag[data-tag="✩✩✩✩"]
+span.rm-page-ref--tag[data-tag="✩✩✩✩✩"] {
+  color: #fff;
+  padding: 2px 6px;
+  background: #fff;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  background: #9D4400;
 }
 
 span[data-link-title="Health"] .rm-page-ref--link,
@@ -744,16 +766,6 @@ span.rm-page-ref--tag[data-tag="Resourcing"] {
   background-color: #304D6D;
   color: #A7CCED;
 }
-
-/* span.rm-page-ref--tag[data-tag="Food"] {
-  background-color: #203B34;
-  color: #FDBD37;
-}
-
-span.rm-page-ref--tag[data-tag="Inspiration"] {
-  background-color: #e07a5f;
-  color: rgba(255,255,255,0.8);
-} */
 
 span.rm-page-ref--tag[data-tag="Inspiration"],
 span.rm-page-ref--tag[data-tag="Decision"],
