@@ -854,7 +854,7 @@ span.rm-page-ref--tag[data-tag="Concepts"] {
 
 .check-container {
   margin-right: 5px;
-  top: -7px;
+  top: -6px;
 }
 
 code,
@@ -928,6 +928,11 @@ div[data-page-links*='embed'] {
   background-color: #EBF1F5;
   padding: 5px 0;
   margin: 5px 0;
+}
+
+[data-page-links*='"DONE"'] > div > div:nth-child(2) > span {
+  opacity: 0.4;
+  text-decoration: line-through;
 }
 
 /*
