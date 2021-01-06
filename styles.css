@@ -36,6 +36,9 @@
 
   --color-gunmetal: #2E3440;
   --color-putty: #EBCB8B;
+
+  --color-default-tag-bg: #4a5a6f;
+  --color-default-tag-text: #fbfbfb;
   
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
@@ -46,7 +49,8 @@
                "Helvetica Neue", sans-serif;
   
   --font-size: 16px;
-  --font-size-code: 14px;
+  --font-size-s: 15px;
+  --font-size-l: 17px;
 }
 
 @font-face {
@@ -449,35 +453,6 @@ span.rm-block-ref:hover span.rm-block-ref {
   text-decoration: underline;
 }
 
-/* morning/evening pages
------------------------- */
-/* Legacy Items
-span[data-link-title="Morning Routine"]::before {
-  content: "☀️ ";
-}
-
-span[data-link-title="Evening Routine"]::before {
-  content: "🌕 ";
-}
-*/
-/* span[data-link-title="Morning Routine"]::before, */
-span[data-link-title="Evening Routine"]::before,
-span[data-link-title="Inspiration"]::before,
-span[data-link-title="Ideas"]::before,
-span[data-link-title="Happy Hour"]::before,
-span[data-link-title="Money"]::before,
-span[data-link-title="Words"]::before {
-  font-family: "phosphor" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  speak: never;
-  display: inline-block;
-  padding-right: 5px;
-  position: relative;
-  /* top: 1px; */
-  font-size: 13px;
-}
-
 span[data-link-title^="[[Books]]"] > .rm-page-ref--link::after {
   font-family: "phosphor" !important;
   font-style: normal !important;
@@ -489,123 +464,6 @@ span[data-link-title^="[[Books]]"] > .rm-page-ref--link::after {
   position: relative;
   display: inline-block;
   content: "\eb38 ";
-}
-
-span[data-link-title="Inspiration"]::before {
-  content: "\eaa4 ";
-}
-
-span[data-link-title="Happy Hour"]::before {
-  content: "\f035 ";
-}
-
-span[data-link-title="Ideas"]::before {
-  content: "\efa4 ";
-}
-
-span[data-link-title="Money"]::before {
-  content: "\eabd ";
-}
-
-span[data-link-title="Words"]::before {
-  content: "\f189 ";
-}
-
-span[data-link-title="Evening Routine"]::before {
-  content: "\f067 ";
-}
-
-span[data-link-title="Money"],
-span[data-link-title="Words"],
-span[data-link-title="Ideas"],
-span[data-link-title="Inspiration"],
-span[data-link-title="Happy Hour"],
-span[data-link-title="Evening Routine"] {
-  padding: 2px 4px;
-  border-radius: 3px;
-  opacity: .9;
-  /* font-size: 12px; */
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* span[data-link-title="Morning Routine"], */
-span[data-link-title="Evening Routine"],
-span[data-link-title="Words"],
-span[data-link-title="Money"],
-span[data-link-title="Happy Hour"],
-span[data-link-title="Inspiration"],
-span[data-link-title="Ideas"] {
-  background-color: var(--color-medium-1);
-  color: var(--color-morning-text);
-}
-
-/* .rm-reference-item span[data-link-title="Morning Routine"], */
-.rm-reference-item span[data-link-title="Evening Routine"],
-.rm-reference-item span[data-link-title="Health"],
-.rm-reference-item span[data-link-title="Ideas"],
-.rm-reference-item span[data-link-title="Words"],
-.rm-reference-item span[data-link-title="Money"],
-.rm-reference-item span[data-link-title="Code"],
-.rm-reference-item span[data-link-title="Inspiration"],
-/* .rm-inline-references span[data-link-title="Morning Routine"], */
-.rm-inline-references span[data-link-title="Evening Routine"],
-.rm-inline-references span[data-link-title="Inspiration"],
-.rm-inline-references span[data-link-title="Health"],
-.rm-inline-references span[data-link-title="Words"],
-.rm-inline-references span[data-link-title="Ideas"],
-.rm-inline-references span[data-link-title="Happy Hour"],
-.rm-inline-references span[data-link-title="Code"],
-.rm-inline-references span[data-link-title="Money"] {
-  padding: 0;
-  background-color: initial;
-}
-
-span[data-link-title="Money"]:hover,
-span[data-link-title="Ideas"]:hover,
-span[data-link-title="Words"]:hover,
-span[data-link-title="Happy Hour"]:hover,
-span[data-link-title="Inspiration"]:hover,
-/* span[data-link-title="Morning Routine"]:hover, */
-span[data-link-title="Evening Routine"]:hover {
-  opacity: 1;
-}
-
-span[data-link-title="Money"] .rm-page-ref-brackets,
-span[data-link-title="Words"] .rm-page-ref-brackets,
-span[data-link-title="Ideas"] .rm-page-ref-brackets,
-span[data-link-title="Inspiration"] .rm-page-ref-brackets,
-span[data-link-title="Happy Hour"] .rm-page-ref-brackets,
-/* span[data-link-title="Morning Routine"] .rm-page-ref-brackets, */
-span[data-link-title="Evening Routine"] .rm-page-ref-brackets {
-  display: none;
-}
-
-span[data-link-title="Ideas"] .rm-page-ref--link,
-span[data-link-title="Words"] .rm-page-ref--link,
-span[data-link-title="Money"] .rm-page-ref--link,
-span[data-link-title="Inspiration"] .rm-page-ref--link,
-span[data-link-title="Happy Hour"] .rm-page-ref--link,
-/* span[data-link-title="Morning Routine"] .rm-page-ref--link, */
-span[data-link-title="Evening Routine"] .rm-page-ref--link {
-  color: var(--color-morning-text);
-  letter-spacing: 0.05rem;
-  font-size: 12px;
-  padding: 0 2px;
-  text-decoration: none;
-  position: relative;
-  top: -2px;
-}
-
-span[data-link-title="Ideas"] .rm-page-ref:hover,
-span[data-link-title="Words"] .rm-page-ref:hover,
-span[data-link-title="Money"] .rm-page-ref:hover,
-span[data-link-title="Inspiration"] .rm-page-ref:hover,
-span[data-link-title="Happy Hour"] .rm-page-ref:hover,
-/* span[data-link-title="Morning Routine"] .rm-page-ref:hover, */
-span[data-link-title="Evening Routine"] .rm-page-ref:hover {
-  text-decoration: none;
 }
 
 /*
@@ -660,7 +518,7 @@ span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link:hover {
   text-decoration: none;
 }
 
-span[data-link-title="Health"] .rm-page-ref--link,
+/* span[data-link-title="Health"] .rm-page-ref--link,
 span[data-link-title="Remember"] .rm-page-ref--link {
   padding: 2px 8px;
   margin-left: 10px;
@@ -718,112 +576,53 @@ span[data-link-title="Health"] .rm-page-ref--link::after {
 
 span[data-link-title="Remember"] .rm-page-ref--link::after {
   border-right-color: #355070;
-}
+} */
 
 /* tag styles. ex: #Article
 --------------------------- */
+
+span[data-link-title="Health"] .rm-page-ref--link,
+span[data-link-title="Remember"] .rm-page-ref--link,
 span.rm-page-ref--tag[data-tag="Resourcing"],
+span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Quotes"],
 span.rm-page-ref--tag[data-tag="Draft"],
 span.rm-page-ref--tag[data-tag="Revised"],
 span.rm-page-ref--tag[data-tag="Inspiration"],
-span.rm-page-ref--tag[data-tag="Unfinished Thoughts"],
+span.rm-page-ref--tag[data-tag="Fragment"],
 span.rm-page-ref--tag[data-tag="Code"],
+span.rm-page-ref--tag[data-tag="Happy Hour"],
 span.rm-page-ref--tag[data-tag="Thoughts"],
-span.rm-page-ref--tag[data-tag="Snippets"],
 span.rm-page-ref--tag[data-tag="Evergreen"],
 span.rm-page-ref--tag[data-tag="Decision"],
 span.rm-page-ref--tag[data-tag="Concepts"],
 span.rm-page-ref--tag[data-tag="Food"] {
   padding: 2px 4px;
   white-space: nowrap;
-  font-size: 15px;
-  /* text-transform: uppercase; */
+  font-size: var(--font-size-s);
+  border-radius: 4px;
+  color: var(--color-default-tag-text);
+  background: var(--color-default-tag-bg);
 }
 
+span[data-link-title$="Health"] .rm-page-ref--link:hover,
+span[data-link-title$="Remember"] .rm-page-ref--link:hover,
 span.rm-page-ref--tag[data-tag="Food"]:hover,
 span.rm-page-ref--tag[data-tag="Draft"]:hover,
 span.rm-page-ref--tag[data-tag="Revised"]:hover,
 span.rm-page-ref--tag[data-tag="Code"]:hover,
 span.rm-page-ref--tag[data-tag="Decision"]:hover,
 span.rm-page-ref--tag[data-tag="Quotes"]:hover,
+span.rm-page-ref--tag[data-tag="Happy Hour"]:hover,
 span.rm-page-ref--tag[data-tag="Inspiration"]:hover,
-span.rm-page-ref--tag[data-tag="Snippets"]:hover,
 span.rm-page-ref--tag[data-tag="Resourcing"]:hover,
 span.rm-page-ref--tag[data-tag="Issue"]:hover,
 span.rm-page-ref--tag[data-tag="Thoughts"]:hover,
 span.rm-page-ref--tag[data-tag="Evergreen"]:hover,
 span.rm-page-ref--tag[data-tag="Concepts"]:hover,
-span.rm-page-ref--tag[data-tag="Unfinished Thoughts"]:hover {
+span.rm-page-ref--tag[data-tag="Fragment"]:hover {
   text-decoration: none;
-}
-
-span.rm-page-ref--tag[data-tag="Thoughts"],
-span.rm-page-ref--tag[data-tag="Unfinished Thoughts"] {
-  background-color: var(--color-putty);
-  color: var(--color-gunmetal);
-}
-
-span.rm-page-ref--tag[data-tag="Issue"] {
-  background-color: #ED5B5C;
-  color: #fff;
-}
-
-span.rm-page-ref--tag[data-tag="Resourcing"] {
-  background-color: #304D6D;
-  color: #A7CCED;
-}
-
-span.rm-page-ref--tag[data-tag="Inspiration"],
-span.rm-page-ref--tag[data-tag="Decision"],
-span.rm-page-ref--tag[data-tag="Food"] {
-  --bg-opacity: 1;
-  --text-opacity: 1;
-  background-color: rgba(226,232,240,var(--bg-opacity));
-  color: rgba(45,55,72,var(--text-opacity));
-}
-
-span.rm-page-ref--tag[data-tag="Evergreen"] {
-  background-color: #4B543B;
-  color: #fff;
-}
-
-span.rm-page-ref--tag[data-tag="Draft"] {
-  background-color: #DCE2AA;
-  color: #2C2D22;
-}
-
-span.rm-page-ref--tag[data-tag="Revised"] {
-  background-color: #8ED081;
-  color: rgba(0,0,0,.8);
-}
-
-span.rm-page-ref--tag[data-tag="Snippets"],
-span.rm-page-ref--tag[data-tag="Code"] {
-  background-color: #A8CFE1;
-  color: #0B0C10;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: var(--font-monospace);
-}
-
-/* span.rm-page-ref--tag[data-tag="Quotes"] {
-  background-color: #142B3E;
-  color: #BFD7EA;
-} */
-
-span.rm-page-ref--tag[data-tag="Quotes"] {
-  --bg-opacity: 1;
-  --text-opacity: 1;
-  background-color: rgba(226,232,240,var(--bg-opacity));
-  color: rgba(45,55,72,var(--text-opacity));
-}
-
-span.rm-page-ref--tag[data-tag="Concepts"] {
-  background-color: #2F4858;
-  color: rgba(255,255,255,0.8);
 }
 
 /* kanban board
@@ -879,7 +678,7 @@ span.rm-page-ref--tag[data-tag="Concepts"] {
 
 code,
 .CodeMirror .CodeMirror-code pre {
-  font-size: var(--font-size-code);
+  font-size: var(--font-size-s);
   font-family: var(--font-monospace);
 }
 
@@ -929,6 +728,19 @@ code,
   display: none;
 }
 
+
+[data-page-links*='"DONE"'] > div > div:nth-child(2) > span {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+/*
+  Block Container Styles:
+    Meeting
+    Callout
+*/
+
+
 div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
   background: #ecfafe;
@@ -964,11 +776,6 @@ div[data-page-links*='embed'] {
   background-color: #EBF1F5;
   padding: 5px 0;
   margin: 5px 0;
-}
-
-[data-page-links*='"DONE"'] > div > div:nth-child(2) > span {
-  opacity: 0.4;
-  text-decoration: line-through;
 }
 
 /*
