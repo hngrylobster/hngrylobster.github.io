@@ -9,6 +9,22 @@
   --color-bright: #00cfff;
   
   /* Hues */
+  --color-dark-02: #fbfbfb;
+  --color-dark-03: #f8f8f9;
+  --color-dark-05: #f4f4f6;
+  --color-dark-1: #e7eaec;
+  --color-dark-2: #d1d5da;
+  --color-dark-3: #bbc0c9;
+  --color-dark-5: #8d97a4;
+  --color-dark-6: #778292;
+  --color-dark-7: #606e7f;
+  --color-dark-8: #4a5a6f;
+  --color-medium-1: #e9f0f4;
+  --color-bright-1: #ecfafe;
+  --color-bright-20: #9dabb2;
+  --color-bright-45: #80939C;
+
+  /* Special Tag Colors */
   --color-hour-link: #778292;
   --color-hour-link-dark: #4a5a6f;
 
