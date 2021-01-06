@@ -495,9 +495,9 @@ span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link:hover {
 /* tag styles. ex: #Article
 --------------------------- */
 
-span[data-link-title="Health"] .rm-page-ref--link,
-span[data-link-title="Remember"] .rm-page-ref--link,
 span.rm-page-ref--tag[data-tag="Resourcing"],
+span.rm-page-ref--tag[data-tag="Reminder"],
+span.rm-page-ref--tag[data-tag="Health"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Quotes"],
@@ -523,8 +523,8 @@ span.rm-page-ref--tag[data-tag="Food"] {
   background: var(--color-default-tag-bg);
 }
 
-span[data-link-title$="Health"] .rm-page-ref--link:hover,
-span[data-link-title$="Remember"] .rm-page-ref--link:hover,
+span.rm-page-ref--tag[data-tag="Reminder"]:hover,
+span.rm-page-ref--tag[data-tag="Health"]:hover,
 span.rm-page-ref--tag[data-tag="Food"]:hover,
 span.rm-page-ref--tag[data-tag="Draft"]:hover,
 span.rm-page-ref--tag[data-tag="Revised"]:hover,
