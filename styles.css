@@ -1,5 +1,6 @@
 :root {
-  /* primary */
+
+  /* Primary Colors */
   --color-white: #fff;
   --color-black: #091018;
   --color-dark: #1c304a;
@@ -7,47 +8,20 @@
   --color-light: #b3efff;
   --color-bright: #00cfff;
   
-  /* Others */
-  --color-morning: #dfe8ee;
-  --color-morning-text: #41657c;
-  --color-evening: #dfe8ee;
-  --color-evening-text: #41657c;
-  
-  /* hues */
-  --color-dark-02: #fbfbfb;
-  --color-dark-03: #f8f8f9;
-  --color-dark-05: #f4f4f6;
-  --color-dark-1: #e7eaec;
-  --color-dark-2: #d1d5da;
-  --color-dark-3: #bbc0c9;
-  --color-dark-5: #8d97a4;
-  --color-dark-6: #778292;
-  --color-dark-7: #606e7f;
-  --color-dark-8: #4a5a6f;
-  --color-medium-1: #e9f0f4;
-  --color-bright-1: #ecfafe;
-  --color-bright-20: #9dabb2;
-  --color-bright-45: #80939C;
+  /* Hues */
   --color-hour-link: #778292;
   --color-hour-link-dark: #4a5a6f;
-  
-  --color-unfinished-text: #fff;
-  --color-unfinished-background: #5A6C7F;
-
-  --color-gunmetal: #2E3440;
-  --color-putty: #EBCB8B;
 
   --color-default-tag-bg: #4a5a6f;
   --color-default-tag-text: #fbfbfb;
   
+  /* Font Families */
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
-  --font-family-tags: SFMono-Regular, Menlo, Monaco,
-               Consolas, "Liberation Mono",
-               "Courier New", monospace;
   --font-family-normal: "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
   
+  /* Font Sizes */
   --font-size: 16px;
   --font-size-s: 15px;
   --font-size-l: 17px;
@@ -154,7 +128,6 @@ body,
 .roam-topbar,
  #right-sidebar,
 .roam-sidebar-container {
-  /* background: var(--color-dark-05) !important; */
   background: #fff !important;
   font-size: var(--font-size);
   font-weight: 300;
