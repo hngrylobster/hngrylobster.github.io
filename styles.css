@@ -467,7 +467,7 @@ span[data-link-title$=":00"] .rm-page-ref--link {
   font-family: var(--font-monospace);
   font-size: 14px;
   color: var(--color-hour-link);
-  padding: 2px 4px;
+  padding: 2px 5px;
   background: #fff;
   border: 1px solid #fff;
   text-decoration: none;
@@ -531,7 +531,7 @@ span.rm-page-ref--tag[data-tag="Decision"],
 span.rm-page-ref--tag[data-tag="Concepts"],
 span.rm-page-ref--tag[data-tag="Purchase"],
 span.rm-page-ref--tag[data-tag="Food"] {
-  padding: 2px 4px;
+  padding: 2px 5px;
   white-space: nowrap;
   font-size: var(--font-size-s);
   border-radius: 2px;
