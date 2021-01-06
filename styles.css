@@ -683,6 +683,13 @@ div[data-page-links*='callout'] {
   margin: 5px 0;
 }
 
+.rm-reference-item div[data-page-links*='meeting'],
+.rm-reference-item div[data-page-links*='meeting'] {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 div[data-page-links*='meeting'] .rm-block-input,
 div[data-page-links*='callout'] .rm-block-input {
   border: 1px solid #d3e1e5;
