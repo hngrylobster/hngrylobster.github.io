@@ -515,6 +515,8 @@ span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link:hover {
 span.rm-page-ref--tag[data-tag="Resourcing"],
 span.rm-page-ref--tag[data-tag="Reminder"],
 span.rm-page-ref--tag[data-tag="Health"],
+span.rm-page-ref--tag[data-tag="Article"],
+span.rm-page-ref--tag[data-tag="Book"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Quotes"],
@@ -544,6 +546,8 @@ span.rm-page-ref--tag[data-tag="Reminder"]:hover,
 span.rm-page-ref--tag[data-tag="Health"]:hover,
 span.rm-page-ref--tag[data-tag="Food"]:hover,
 span.rm-page-ref--tag[data-tag="Draft"]:hover,
+span.rm-page-ref--tag[data-tag="Article"]:hover,
+span.rm-page-ref--tag[data-tag="Book"]:hover,
 span.rm-page-ref--tag[data-tag="Revised"]:hover,
 span.rm-page-ref--tag[data-tag="Code"]:hover,
 span.rm-page-ref--tag[data-tag="Decision"]:hover,
@@ -684,7 +688,7 @@ div[data-page-links*='callout'] {
 }
 
 .rm-reference-item div[data-page-links*='meeting'],
-.rm-reference-item div[data-page-links*='meeting'] {
+.rm-reference-item div[data-page-links*='callout'] {
   /* TBD */
 }
 
