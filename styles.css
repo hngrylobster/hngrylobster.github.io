@@ -681,14 +681,11 @@ div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
   background: #ecfafe;
   padding: 5px 0;
-  margin: 5px 0;
 }
 
 .rm-reference-item div[data-page-links*='meeting'],
 .rm-reference-item div[data-page-links*='meeting'] {
-  margin-left: 5px;
-  margin-top: 0;
-  margin-bottom: 0;
+  /* TBD */
 }
 
 div[data-page-links*='meeting'] .rm-block-input,
@@ -718,7 +715,6 @@ div[data-page-links*='meeting']::after {
 div[data-page-links*='embed'] {
   background-color: #EBF1F5;
   padding: 5px 0;
-  margin: 5px 0;
 }
 
 /*
