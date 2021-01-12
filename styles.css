@@ -622,6 +622,10 @@ span.rm-page-ref--tag[data-tag="Fragment"]:hover {
   top: -6px;
 }
 
+.rm-reference-item .check-container {
+  top: -2px;
+}
+
 code,
 .CodeMirror .CodeMirror-code pre {
   font-size: var(--font-size-xs);
