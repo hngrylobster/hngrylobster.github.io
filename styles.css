@@ -622,7 +622,7 @@ span.rm-page-ref--tag[data-tag="Fragment"]:hover {
   top: -6px;
 }
 
-.rm-reference-item .check-container {
+.rm-reference-item .parent-path-wrapper .check-container {
   top: -2px;
 }
 
