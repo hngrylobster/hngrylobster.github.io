@@ -698,7 +698,7 @@ div[data-page-links*='callout'] {
 }
 
 div[data-page-links*='call'] {
-  background: #fcfefd;
+  background: #eff9f5;
   padding: 5px 0;
 }
 
@@ -714,9 +714,9 @@ div[data-page-links*='callout'] .rm-block-input {
   background: #fff;
 }
 
-div[data-page-links*='meeting'] .rm-block-input {
-  border: 1px solid #d3e1e5;
-  background: #eff9f5;
+div[data-page-links*='call'] .rm-block-input {
+  border: 1px solid #e3f5ed;
+  background: #fff;
 }
 
 span.rm-page-ref--tag[data-tag='call'],
@@ -732,7 +732,6 @@ div[data-page-links*='meeting']::after {
   position: absolute;
   right: 15px;
   background: #fff;
-  border: 2px solid #edfafe;
   padding: 2px 6px;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -740,10 +739,12 @@ div[data-page-links*='meeting']::after {
 
 div[data-page-links*='meeting']::after {
   content: 'meeting';
+  border: 2px solid #edfafe;
 }
 
 div[data-page-links*='call']::after {
   content: 'call';
+  border: 2px solid #e3f5ed;
 }
 
 div[data-page-links*='embed'] {
