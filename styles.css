@@ -688,8 +688,8 @@ code,
   Block Container Styles:
     Meeting
     Callout
+    Call
 */
-
 
 div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
@@ -699,6 +699,11 @@ div[data-page-links*='callout'] {
 
 div[data-page-links*='call'] {
   background: #eff9f5;
+  padding: 5px 0;
+}
+
+div[data-page-links*='embed'] {
+  background-color: #EBF1F5;
   padding: 5px 0;
 }
 
@@ -745,11 +750,6 @@ div[data-page-links*='meeting']::after {
 div[data-page-links*='call']::after {
   content: 'call';
   border: 2px solid #e3f5ed;
-}
-
-div[data-page-links*='embed'] {
-  background-color: #EBF1F5;
-  padding: 5px 0;
 }
 
 /*
