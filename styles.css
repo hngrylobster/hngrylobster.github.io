@@ -687,6 +687,10 @@ code,
 }
 
 [data-page-links*="Daily Log"] .rm-level-1 > [data-page-links*="DONE"] {
+  order: 2;
+}
+
+[data-page-links*="Daily Log"] .rm-level-1 > div {
   order: 1;
 }
 
