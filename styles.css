@@ -682,10 +682,24 @@ code,
   display: none;
 }
 
+[data-page-links*="Daily Log"] .rm-level-1 > [data-page-links*="TODO"] {
+  order: 0;
+}
+
+[data-page-links*="Daily Log"] .rm-level-1 > [data-page-links*="DONE"] {
+  order: 1;
+}
 
 [data-page-links*='"DONE"'] > div > div:nth-child(2) > span {
   opacity: 0.4;
   text-decoration: line-through;
+}
+
+.bp3-button:not([class*="bp3-intent-"]) {
+  box-shadow: none;
+  background: #f5f8fa;
+  border: none;
+  float: right;
 }
 
 /*
@@ -697,7 +711,7 @@ code,
 
 div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
-  background: #ecfafe;
+  background: #f6fbf9;
   padding: 5px 0;
 }
 
