@@ -706,6 +706,10 @@ code,
   float: right;
 }
 
+.rm-reference-item .bp3-button:not([class*="bp3-intent-"]) {
+  float: none;
+}
+
 /*
   Block Container Styles:
     Meeting
