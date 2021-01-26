@@ -652,9 +652,10 @@ code,
   background: #f9f9f9;
   padding-left: 5px;
   padding-right: 5px;
-  border: 1px solid #f1f1f1;
+  margin-left: -5px;
+  /* border: 1px solid #f1f1f1; */
   line-height: 1.5em;
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .roam-highlight {
@@ -741,12 +742,12 @@ div[data-page-links*='embed'] {
 
 div[data-page-links*='meeting'] .rm-block-input,
 div[data-page-links*='callout'] .rm-block-input {
-  border: 1px solid #d3e1e5;
+  /* border: 1px solid #d3e1e5; */
   background: #fff;
 }
 
 div[data-page-links*='call'] .rm-block-input {
-  border: 1px solid #e3f5ed;
+  /* border: 1px solid #e3f5ed; */
   background: #fff;
 }
 
