@@ -379,6 +379,10 @@ h1.rm-title-display {
   box-shadow: 0px -15px 0px var(--color-medium-1) inset;
 }
 
+#right-sidebar .rm-sidebar-outline h1.rm-title-display {
+  font-size: 28px;
+}
+
 h1.rm-level1,
 h2.rm-level2 {
   font-weight: 700 !important;
