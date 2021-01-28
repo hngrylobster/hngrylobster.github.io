@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/ia-writer-duospace');
+
 :root {
 
   /* Primary Colors */
@@ -34,7 +36,7 @@
   /* Font Families */
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
-  --font-family-normal: "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+  --font-family-normal: 'iA Writer Duospace', "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
   
   /* Font Sizes */
@@ -623,7 +625,7 @@ span.rm-page-ref--tag[data-tag="Fragment"]:hover {
 
 .check-container {
   margin-right: 5px;
-  top: -6px;
+  /* top: -6px; */
 }
 
 .rm-reference-item .parent-path-wrapper .check-container {
