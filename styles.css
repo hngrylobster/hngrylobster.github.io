@@ -551,29 +551,7 @@ span.rm-page-ref--tag[data-tag="Food"] {
   background: var(--color-default-tag-bg);
 }
 
-span.rm-page-ref--tag[data-tag="Reminder"]:hover,
-span.rm-page-ref--tag[data-tag="Health"]:hover,
-span.rm-page-ref--tag[data-tag="Food"]:hover,
-span.rm-page-ref--tag[data-tag="Draft"]:hover,
-span.rm-page-ref--tag[data-tag="Fonts"]:hover,
-span.rm-page-ref--tag[data-tag="Article"]:hover,
-span.rm-page-ref--tag[data-tag="Book"]:hover,
-span.rm-page-ref--tag[data-tag="Recipes"]:hover,
-span.rm-page-ref--tag[data-tag="Revised"]:hover,
-span.rm-page-ref--tag[data-tag="Code"]:hover,
-span.rm-page-ref--tag[data-tag="Decision"]:hover,
-span.rm-page-ref--tag[data-tag="Quotes"]:hover,
-span.rm-page-ref--tag[data-tag="Happy Hour"]:hover,
-span.rm-page-ref--tag[data-tag="Inspiration"]:hover,
-span.rm-page-ref--tag[data-tag="Resourcing"]:hover,
-span.rm-page-ref--tag[data-tag="Issue"]:hover,
-span.rm-page-ref--tag[data-tag="Words"]:hover,
-span.rm-page-ref--tag[data-tag="Person"]:hover,
-span.rm-page-ref--tag[data-tag="Thoughts"]:hover,
-span.rm-page-ref--tag[data-tag="Evergreen"]:hover,
-span.rm-page-ref--tag[data-tag="Concepts"]:hover,
-span.rm-page-ref--tag[data-tag="Purchase"]:hover,
-span.rm-page-ref--tag[data-tag="Fragment"]:hover {
+span.rm-page-ref--tag:hover {
   text-decoration: none;
 }
 
