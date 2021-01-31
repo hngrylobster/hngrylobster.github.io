@@ -562,6 +562,7 @@ span.rm-page-ref--tag:hover {
   border: 1px solid var(--color-dark-1);
   border-radius: 4px;
   padding: 4px 2px 0 2px !important;
+  margin-right: -20%;
 }
 
 .kanban-board .kanban-column {
