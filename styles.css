@@ -698,6 +698,22 @@ code,
   float: none;
 }
 
+div[data-page-links*="important"] > .rm-block-main.rm-block__self .rm-bullet__inner {
+  background-color: transparent;
+  height: 6px;
+  width: 6px;
+  border-radius: 0px;
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-bottom: 3px;
+}
+div[data-page-links*="important"] > .rm-block-children > .rm-multibar,
+div[data-page-links*="important"] > .rm-block-main.rm-block__self .checkmark {
+  border-color: red;
+}
+
 /*
   Block Container Styles:
     Meeting
