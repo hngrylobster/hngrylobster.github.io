@@ -340,6 +340,10 @@ em {
   line-height: 1.42857143;
 }
 
+.rm-reference-item .parent-path-wrapper .check-container .checkmark {
+  top: auto;
+}
+
 .rm-inline-references {
   padding: 12px 20px !important;
   border-radius: 4px;
@@ -609,9 +613,6 @@ span.rm-page-ref--tag:hover {
   /* top: -6px; */
 }
 
-.rm-reference-item .parent-path-wrapper .check-container {
-  top: -2px;
-}
 
 code,
 .CodeMirror .CodeMirror-code pre {
