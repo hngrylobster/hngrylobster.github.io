@@ -806,7 +806,7 @@ div[data-page-links*='call']::after {
 
 @media only screen and (max-width: 600px) {
   :root {
-    --font-size: 14px;
+    --font-size: 15px;
   }
   h1.rm-title-display {
   	font-size: 30px;
