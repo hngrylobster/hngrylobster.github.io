@@ -671,7 +671,7 @@ code,
   display: none;
 }
 
-[data-page-links*="Daily Log"] .rm-level-1 > [data-page-links*="TODO"] {
+/* [data-page-links*="Daily Log"] .rm-level-1 > [data-page-links*="TODO"] {
   order: 0;
 }
 
@@ -681,7 +681,7 @@ code,
 
 [data-page-links*="Daily Log"] .rm-level-1 > div {
   order: 1;
-}
+} */
 
 [data-page-links*='"DONE"'] > div > div:nth-child(2) > span {
   opacity: 0.4;
