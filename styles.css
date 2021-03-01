@@ -631,7 +631,7 @@ code,
 }
 
 .rm-block-text {
-  max-width: calc(60ch + 5px);
+  max-width: calc(75ch + 5px);
 }
 
 .rm-block-input { 
