@@ -721,6 +721,11 @@ div[data-page-links*="important"] > .rm-block-main.rm-block__self .checkmark {
     Call
 */
 
+div[data-page-links*='highlight'] {
+  background: #FDC138;
+  padding: 5px 0;
+}
+
 div[data-page-links*='meeting'],
 div[data-page-links*='callout'] {
   background: #f6fbf9;
@@ -738,23 +743,22 @@ div[data-page-links*='embed'] {
 }
 
 .rm-reference-item div[data-page-links*='call']
+.rm-reference-item div[data-page-links*='highlight']
 .rm-reference-item div[data-page-links*='meeting'],
 .rm-reference-item div[data-page-links*='callout'] {
   /* TBD */
 }
 
+div[data-page-links*='highlight'] .rm-block-input,
 div[data-page-links*='meeting'] .rm-block-input,
-div[data-page-links*='callout'] .rm-block-input {
+div[data-page-links*='callout'] .rm-block-input,
+div[data-page-links*='call'] .rm-block-input {
   /* border: 1px solid #d3e1e5; */
   background: #fff;
 }
 
-div[data-page-links*='call'] .rm-block-input {
-  /* border: 1px solid #e3f5ed; */
-  background: #fff;
-}
-
 span.rm-page-ref--tag[data-tag='call'],
+span.rm-page-ref--tag[data-tag='highlight'],
 span.rm-page-ref--tag[data-tag='meeting'],
 span.rm-page-ref--tag[data-tag='callout'] {
   display: none;
