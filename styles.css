@@ -602,7 +602,7 @@ span.rm-page-ref--tag:hover {
 }
 
 .checkmark {
-  top: -2px;
+  /* top: -2px; */
   /* border-radius: 50% !important; */
 }
 
