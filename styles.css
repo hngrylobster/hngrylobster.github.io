@@ -34,12 +34,12 @@
   --color-default-tag-text: #fbfbfb;
   
   /* Font Families */
-  --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
+  --font-monospace: 'Dank Mono', 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
   --font-family-normal: Inter, 'iA Writer Quattro', "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   
   /* Font Sizes */
-  --font-size: 14px;
+  --font-size: 15px;
   --font-size-xs: 13px;
   --font-size-s: 14px;
   --font-size-l: 17px;
