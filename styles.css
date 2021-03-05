@@ -34,12 +34,13 @@
   --color-default-tag-text: #fbfbfb;
   
   /* Font Families */
-  --font-monospace: 'Dank Mono', 'SF Mono', SFMono-Regular, ui-monospace,
+  --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
   --font-family-normal: Inter, 'iA Writer Quattro', "Mallory", "AtlasGrotesk", "Whitney HTF", "Basier Square", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   
   /* Font Sizes */
   --font-size: 15px;
+  --font-size-mono: 15px;
   --font-size-xs: 13px;
   --font-size-s: 14px;
   --font-size-l: 17px;
@@ -526,6 +527,7 @@ span.rm-page-ref--tag[data-tag="Reminder"],
 span.rm-page-ref--tag[data-tag="Health"],
 span.rm-page-ref--tag[data-tag="Article"],
 span.rm-page-ref--tag[data-tag="Book"],
+span.rm-page-ref--tag[data-tag="Prep"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Issue"],
 span.rm-page-ref--tag[data-tag="Quotes"],
@@ -548,7 +550,6 @@ span.rm-page-ref--tag[data-tag="Food"] {
   padding: 2px 5px;
   white-space: nowrap;
   font-size: var(--font-size-s);
-  border-radius: 2px;
   color: var(--color-default-tag-text);
   text-decoration: none;
   background: var(--color-default-tag-bg);
@@ -614,7 +615,7 @@ span.rm-page-ref--tag:hover {
 
 code,
 .CodeMirror .CodeMirror-code pre {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-mono);
   font-family: var(--font-monospace);
 }
 
