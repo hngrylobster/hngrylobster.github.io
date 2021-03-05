@@ -30,8 +30,8 @@
   --color-hour-link: #778292;
   --color-hour-link-dark: #4a5a6f;
 
-  --color-default-tag-bg: #4a5a6f;
-  --color-default-tag-text: #fbfbfb;
+  --color-default-tag-bg: ##E1F2F9;
+  --color-default-tag-text: #444;
   
   /* Font Families */
   --font-monospace: 'SF Mono', SFMono-Regular, ui-monospace,
@@ -549,7 +549,7 @@ span.rm-page-ref--tag[data-tag="Purchase"],
 span.rm-page-ref--tag[data-tag="Food"] {
   padding: 2px 5px;
   white-space: nowrap;
-  font-size: var(--font-size-s);
+  font-size: var(--font-size);
   color: var(--color-default-tag-text);
   text-decoration: none;
   background: var(--color-default-tag-bg);
