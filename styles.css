@@ -522,7 +522,7 @@ span[data-link-title$="✩✩✩✩✩"] .rm-page-ref--link:hover {
 /* tag styles. ex: #Article
 --------------------------- */
 
-span.rm-page-ref--tag[data-tag="Resourcing"],
+/* span.rm-page-ref--tag[data-tag="Resourcing"],
 span.rm-page-ref--tag[data-tag="Reminder"],
 span.rm-page-ref--tag[data-tag="Health"],
 span.rm-page-ref--tag[data-tag="Article"],
@@ -547,7 +547,9 @@ span.rm-page-ref--tag[data-tag="Concepts"],
 span.rm-page-ref--tag[data-tag="Person"],
 span.rm-page-ref--tag[data-tag="Recipes"],
 span.rm-page-ref--tag[data-tag="Purchase"],
-span.rm-page-ref--tag[data-tag="Food"] {
+span.rm-page-ref--tag[data-tag="Food"] */
+
+span.rm-page-ref--tag {
   padding: 2px 5px;
   white-space: nowrap;
   font-size: var(--font-size-xs);
