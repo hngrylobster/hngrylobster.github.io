@@ -563,6 +563,9 @@ span.rm-page-ref--tag {
   letter-spacing: 1px;
   font-weight: 400;
 
+  position: relative;
+  top: -1px;
+
   font-family: 'iA Writer Quattro', monospace;
 }
 
