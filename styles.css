@@ -161,6 +161,7 @@ a,
   color: var(--color-medium);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
+  text-underline-offset: 1px;
   text-decoration-thickness: 1px;
 }
 
@@ -169,7 +170,8 @@ a,
   color: var(--color-dark);
   text-decoration-skip-ink: auto;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
 }
 
 .rm-ref-page-view-title a  {
